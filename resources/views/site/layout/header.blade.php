@@ -70,20 +70,20 @@
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link @yield('website-active-home')">Home</a>
                     <a href="/about" class="nav-item nav-link @yield('website-active-about')">About</a>
-                    <a href="/causes" class="nav-item nav-link">Causes</a>
-                    <a href="/event" class="nav-item nav-link">Events</a>
-                    <a href="/blog" class="nav-item nav-link">Blog</a>
+                    <a href="/causes" class="nav-item nav-link @yield('website-active-causes')">Causes</a>
+                    <a href="/events" class="nav-item nav-link @yield('website-active-events')">Events</a>
+                    <a href="/donate" class="nav-item nav-link @yield('website-active-donate')">Donate</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu">
-                            <a href="single.html" class="dropdown-item">Detail Page</a>
-                            <a href="service.html" class="dropdown-item">What We Do</a>
-                            <a href="team.html" class="dropdown-item">Meet The Team</a>
-                            <a href="donate.html" class="dropdown-item">Donate Now</a>
-                            <a href="volunteer.html" class="dropdown-item">Become A Volunteer</a>
+                            <a href="/blog" class="dropdown-item">Blog</a>
+                            <a href="/single" class="dropdown-item">Detail Page</a>
+                            <a href="/service" class="dropdown-item">What We Do</a>
+                            <a href="/team" class="dropdown-item">Meet The Team</a>
+                            <a href="/volunteer" class="dropdown-item">Become A Volunteer</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="/contact" class="nav-item nav-link @yield('website-active-contact')">Contact</a>
                 </div>
             </div>
         </div>

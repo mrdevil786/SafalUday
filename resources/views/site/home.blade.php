@@ -2,6 +2,8 @@
 
 @section('website-page-title','Home')
 
+@section('website-active-home','active')
+
 @section('website-main-section')
 
     <!-- Carousel Start -->

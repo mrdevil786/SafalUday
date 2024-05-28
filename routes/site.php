@@ -10,6 +10,10 @@ Route::get('/about', function () {
     return view('site.about');
 });
 
+Route::get('/donate', function () {
+    return view('site.donate');
+});
+
 Route::get('/contact', function () {
     return view('site.contact');
 });

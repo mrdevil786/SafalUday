@@ -5,8 +5,12 @@
     <meta charset="utf-8">
     <title>{{ env('APP_NAME') }} - @yield('website-page-title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
+    <meta
+        content="Safaluday NGO, Non-Profit Organization, Community Development, Social Services, Education for All, Healthcare Initiatives, Environmental Conservation, Volunteer Opportunities, Empowering Women, Child Welfare Programs, Rural Development, Charity Organization, Support for Underprivileged, Health Camps, Educational Workshops"
+        name="keywords">
+    <meta
+        content="Safaluday NGO is dedicated to community development through education, healthcare, and environmental conservation. Join us in empowering women, supporting child welfare programs, and driving rural development. Volunteer or donate to make a difference today!"
+        name="description">
 
     <!-- Favicon -->
     <link href="{{ asset('website/assets/img/favicon.ico') }}" rel="icon">
@@ -39,7 +43,7 @@
                         </div>
                         <div class="text">
                             <i class="fa fa-envelope"></i>
-                            <p>info@example.com</p>
+                            <p>info@safaluday.org</p>
                         </div>
                     </div>
                 </div>

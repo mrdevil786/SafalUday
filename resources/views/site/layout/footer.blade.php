@@ -7,7 +7,7 @@
                     <h2>Our Head Office</h2>
                     <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
                     <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                    <p><i class="fa fa-envelope"></i>info@safaluday.org</p>
                     <div class="footer-social">
                         <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>

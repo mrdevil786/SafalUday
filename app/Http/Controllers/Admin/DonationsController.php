@@ -10,7 +10,7 @@ class DonationsController extends Controller
 {
     public function index()
     {
-        $donations = Payment::get();
+        $donations = Payment::latest()->get();
         return view('admin.donation.index', compact('donations'));
     }
 
@@ -20,7 +20,7 @@ class DonationsController extends Controller
         $donation = Payment::findOrFail($id);
         $donation->delete();
 
-        return redirect()->route('admin.subscribers.index')->with('success', 'Subscriber deleted successfully!');
+        return redirect()->route('admin.donations.index')->with('success', 'Subscriber deleted successfully!');
     }
 
     // TRUNCATE ALL SUBSCRIBERS

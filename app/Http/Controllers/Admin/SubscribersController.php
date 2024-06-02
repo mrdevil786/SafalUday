@@ -10,7 +10,7 @@ class SubscribersController extends Controller
 {
     public function index()
     {
-        $subscribers = Subscriber::get();
+        $subscribers = Subscriber::latest()->get();
         return view('admin.subscriber.index', compact('subscribers'));
     }
 

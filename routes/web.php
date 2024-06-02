@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\SubscribersController;
 
 Route::prefix('admin')->middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'loginView'])->name('view.login');
@@ -31,6 +32,14 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
             Route::post('store', 'store')->name('store');
             Route::get('edit/{id}', 'edit')->name('edit');
             Route::put('update/{id}', 'update')->name('update');
+        });
+
+    Route::name('subscribers.')
+        ->prefix('subscribers')
+        ->middleware('member')
+        ->controller(SubscribersController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            Route::get('view/{id}', 'view')->name('view');
         });
 
     Route::name('users.')

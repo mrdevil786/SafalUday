@@ -1,7 +1,6 @@
 <?php
 return [
     'main' => [
-        'title' => 'Main',
         'items' => [
             [
                 'label' => 'Dashboard',
@@ -11,8 +10,18 @@ return [
             ],
         ],
     ],
-    'ui_kit' => [
-        'title' => 'UI Kit',
+    'subscriber' => [
+        'items' => [
+            [
+                'label' => 'Subscribers',
+                'icon' => 'fe fe-rss',
+                'route' => 'admin.subscribers.index',
+                'active' => 'admin/subscribers',
+            ],
+        ],
+    ],
+    'tools' => [
+        'title' => 'Tools & Management',
         'items' => [
             [
                 'label' => 'Users',

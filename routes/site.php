@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Website\SubscriberController;
 
 Route::get('/', function () {
     return view('site.home');
@@ -17,3 +18,6 @@ Route::get('/donate', function () {
 Route::get('/contact', function () {
     return view('site.contact');
 });
+
+Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe');
+Route::post('/unsubscribe', [SubscriberController::class, 'unsubscribe'])->name('unsubscribe');

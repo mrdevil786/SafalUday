@@ -46,9 +46,9 @@
                                             @if ($user->user_role == 1)
                                                 Admin
                                             @elseif($user->user_role == 2)
-                                                Manager
+                                                Editor
                                             @elseif($user->user_role == 3)
-                                                Member
+                                                Viewer
                                             @else
                                                 Unknown
                                             @endif

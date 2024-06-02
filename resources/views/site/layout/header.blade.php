@@ -13,7 +13,7 @@
         name="description">
 
     <!-- Favicon -->
-    <link href="{{ asset('website/assets/img/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('favicon.png') }}" rel="icon">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
@@ -65,7 +65,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">Safaluday</a>
+            <a href="/" class="navbar-brand">Safaluday</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>

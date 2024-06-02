@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="donate-form">
-                        <form action="" method="POST">
+                        <form action="{{ route('donate.process') }}" method="POST">
                             @csrf
                             <div class="form-group">
                                 <input type="text" class="form-control" name="name" placeholder="Name"

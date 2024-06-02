@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Website\DonationController;
 use App\Http\Controllers\Website\SubscriberController;
 
 Route::get('/', function () {
@@ -11,13 +12,13 @@ Route::get('/about', function () {
     return view('site.about');
 });
 
-Route::get('/donate', function () {
-    return view('site.donate');
-});
-
 Route::get('/contact', function () {
     return view('site.contact');
 });
 
 Route::post('/subscribe', [SubscriberController::class, 'subscribe'])->name('subscribe');
 Route::post('/unsubscribe', [SubscriberController::class, 'unsubscribe'])->name('unsubscribe');
+
+Route::get('/donate', [DonationController::class, 'index'])->name('donate.form');
+Route::post('/donate', [DonationController::class, 'processPayment'])->name('donate.process');
+Route::post('/payment-success', [DonationController::class, 'paymentSuccess'])->name('donate.success');

@@ -10,13 +10,23 @@ return [
             ],
         ],
     ],
-    'subscriber' => [
+    'subscribers' => [
         'items' => [
             [
                 'label' => 'Subscribers',
                 'icon' => 'fe fe-rss',
                 'route' => 'admin.subscribers.index',
                 'active' => 'admin/subscribers',
+            ],
+        ],
+    ],
+    'donations' => [
+        'items' => [
+            [
+                'label' => 'Donations',
+                'icon' => 'fe fe-dollar-sign',
+                'route' => 'admin.donations.index',
+                'active' => 'admin/donations',
             ],
         ],
     ],

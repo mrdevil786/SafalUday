@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\DonationsController;
 use App\Http\Controllers\Admin\SubscribersController;
 
 Route::prefix('admin')->middleware('guest')->group(function () {
@@ -54,6 +55,21 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         ->prefix('subscribers')
         ->middleware('member')
         ->controller(SubscribersController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+        });
+
+    Route::name('donations.')
+        ->prefix('donations')
+        ->middleware('admin')
+        ->controller(DonationsController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+            Route::post('/delete-all', 'flush')->name('flush');
+        });
+
+    Route::name('donations.')
+        ->prefix('donations')
+        ->middleware('member')
+        ->controller(DonationsController::class)->group(function () {
             Route::get('/', 'index')->name('index');
         });
 });

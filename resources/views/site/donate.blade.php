@@ -44,27 +44,21 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="donate-form">
-                        <form>
-                            <div class="control-group">
-                                <input type="text" class="form-control" placeholder="Name" required="required" />
+                        <form action="" method="POST">
+                            @csrf
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="name" placeholder="Name"
+                                    required="required" />
                             </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" placeholder="Email" required="required" />
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" placeholder="Email"
+                                    required="required" />
                             </div>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                <label class="btn btn-custom active">
-                                    <input type="radio" name="options" checked> $10
-                                </label>
-                                <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $20
-                                </label>
-                                <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $30
-                                </label>
+                            <div class="form-group">
+                                <input type="number" class="form-control" name="amount" placeholder="Enter amount"
+                                    required="required" min="1" />
                             </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit">Donate Now</button>
-                            </div>
+                            <button type="submit" class="btn btn-custom">Donate Now</button>
                         </form>
                     </div>
                 </div>

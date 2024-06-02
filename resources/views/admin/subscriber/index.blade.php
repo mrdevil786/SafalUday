@@ -8,12 +8,14 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Subscribers</h1>
-            <form action="{{ route('admin.subscribers.truncate') }}" method="POST"
-                onsubmit="return confirm('Are you sure you want to delete all subscribers?');">
-                @csrf
-                @method('DELETE')
-                <button class="btn btn-primary off-canvas" type="submit">Delete All</button>
-            </form>
+            @if (auth()->user()->user_role == 1)
+                <form action="{{ route('admin.subscribers.truncate') }}" method="POST"
+                    onsubmit="return confirm('Are you sure you want to delete all subscribers?');">
+                    @csrf
+                    @method('DELETE')
+                    <button class="btn btn-primary off-canvas" type="submit">Delete All</button>
+                </form>
+            @endif
         </div>
     </div>
     <!-- PAGE-HEADER END -->
@@ -34,7 +36,9 @@
                                     <th class="wd-15p border-bottom-0">Email</th>
                                     <th class="wd-25p border-bottom-0">Created At</th>
                                     <th class="wd-25p border-bottom-0">Updated At</th>
-                                    <th class="wd-25p border-bottom-0">Action</th>
+                                    @if (auth()->user()->user_role == 1)
+                                        <th class="wd-25p border-bottom-0">Action</th>
+                                    @endif
                                 </tr>
                             </thead>
                             <tbody>

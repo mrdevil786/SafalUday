@@ -47,7 +47,7 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         ->middleware('admin')
         ->controller(SubscribersController::class)->group(function () {
             Route::get('/{id}', 'destroy')->name('destroy');
-            Route::get('/delete-all', 'truncate')->name('truncate');
+            Route::delete('/delete-all', 'truncate')->name('truncate');
         });
 
     Route::name('subscribers.')

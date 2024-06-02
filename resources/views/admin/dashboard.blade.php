@@ -78,8 +78,8 @@
                         <div class="card-body">
                             <div class="d-flex">
                                 <div class="mt-2">
-                                    <h6 class="">Total Cost</h6>
-                                    <h2 class="mb-0 number-font">$59,765</h2>
+                                    <h6 class="">Total Donation</h6>
+                                    <h2 class="mb-0 number-font">₹{{ number_format($totalAmount, 2) }}</h2>
                                 </div>
                                 <div class="ms-auto">
                                     <div class="chart-wrapper mt-1">
@@ -87,12 +87,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <span class="text-muted fs-12"><span class="text-warning"><i
-                                        class="fe fe-arrow-up-circle text-warning"></i> 0.6%</span>
-                                Last year</span>
+                            <span class="text-muted fs-12">
+                                <span class="text-{{ $percentIncrease > 0 ? 'success' : 'danger' }}">
+                                    <i class="fe fe-arrow-{{ $percentIncrease > 0 ? 'up' : 'down' }}-circle text-{{ $percentIncrease > 0 ? 'success' : 'danger' }}"></i>
+                                    {{ abs($percentIncrease) }}%
+                                </span>
+                                Last week
+                            </span>
                         </div>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </div>

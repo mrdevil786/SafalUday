@@ -48,13 +48,13 @@
                                         <td>{{ $subscriber->email }}</td>
                                         <td>{{ $subscriber->created_at }}</td>
                                         <td>{{ $subscriber->updated_at }}</td>
-                                        <td class="text-center">
-                                            @if (auth()->user()->user_role == 1)
+                                        @if (auth()->user()->user_role == 1)
+                                            <td class="text-center">
                                                 <x-buttons.action-pill-button
                                                     href="{{ route('admin.subscribers.destroy', $subscriber->id) }}"
                                                     iconClass="fa fa-trash" iconColor="danger" />
-                                            @endif
-                                        </td>
+                                            </td>
+                                        @endif
                                     </tr>
                                 @endforeach
                             </tbody>

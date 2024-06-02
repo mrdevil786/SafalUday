@@ -54,22 +54,25 @@
                                         <td>{{ $donation->payment_id ?? 'Waiting...!' }}</td>
                                         <td>
                                             @if ($donation->status == 'success')
-                                                <span class="badge rounded-pill bg-success badge-sm me-1 mb-1 mt-1">Success</span>
+                                                <span
+                                                    class="badge rounded-pill bg-success badge-sm me-1 mb-1 mt-1">Success</span>
                                             @elseif ($donation->status == 'pending')
-                                                <span class="badge rounded-pill bg-warning badge-sm me-1 mb-1 mt-1">Pending</span>
+                                                <span
+                                                    class="badge rounded-pill bg-warning badge-sm me-1 mb-1 mt-1">Pending</span>
                                             @else
-                                                <span class="badge rounded-pill bg-danger badge-sm me-1 mb-1 mt-1">{{ $donation->status }}</span>
+                                                <span
+                                                    class="badge rounded-pill bg-danger badge-sm me-1 mb-1 mt-1">{{ $donation->status }}</span>
                                             @endif
-                                        </td>                                        
+                                        </td>
                                         <td>{{ $donation->created_at }}</td>
                                         <td>{{ $donation->updated_at }}</td>
-                                        <td class="text-center">
-                                            @if (auth()->user()->user_role == 1)
+                                        @if (auth()->user()->user_role == 1)
+                                            <td class="text-center">
                                                 <x-buttons.action-pill-button
                                                     href="{{ route('admin.donations.destroy', $donation->id) }}"
                                                     iconClass="fa fa-trash" iconColor="danger" />
-                                            @endif
-                                        </td>
+                                            </td>
+                                        @endif
                                     </tr>
                                 @endforeach
                             </tbody>

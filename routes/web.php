@@ -34,20 +34,27 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
             Route::put('update/{id}', 'update')->name('update');
         });
 
-    Route::name('subscribers.')
-        ->prefix('subscribers')
-        ->middleware('member')
-        ->controller(SubscribersController::class)->group(function () {
-            Route::get('/', 'index')->name('index');
-            Route::get('view/{id}', 'view')->name('view');
-        });
-
     Route::name('users.')
         ->prefix('users')
         ->middleware('member')
         ->controller(UsersController::class)->group(function () {
             Route::get('/', 'index')->name('index');
             Route::get('view/{id}', 'view')->name('view');
+        });
+
+    Route::name('subscribers.')
+        ->prefix('subscribers')
+        ->middleware('admin')
+        ->controller(SubscribersController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+            Route::get('/delete-all', 'truncate')->name('truncate');
+        });
+
+    Route::name('subscribers.')
+        ->prefix('subscribers')
+        ->middleware('member')
+        ->controller(SubscribersController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
         });
 });
 

@@ -8,8 +8,12 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Subscribers</h1>
-            <button class="btn btn-primary off-canvas" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Delete All</button>
+            <form action="{{ route('admin.subscribers.truncate') }}" method="POST"
+                onsubmit="return confirm('Are you sure you want to delete all subscribers?');">
+                @csrf
+                @method('DELETE')
+                <button class="btn btn-primary off-canvas" type="submit">Delete All</button>
+            </form>
         </div>
     </div>
     <!-- PAGE-HEADER END -->
@@ -30,6 +34,7 @@
                                     <th class="wd-15p border-bottom-0">Email</th>
                                     <th class="wd-25p border-bottom-0">Created At</th>
                                     <th class="wd-25p border-bottom-0">Updated At</th>
+                                    <th class="wd-25p border-bottom-0">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -39,6 +44,13 @@
                                         <td>{{ $subscriber->email }}</td>
                                         <td>{{ $subscriber->created_at }}</td>
                                         <td>{{ $subscriber->updated_at }}</td>
+                                        <td class="text-center">
+                                            @if (auth()->user()->user_role == 1)
+                                                <x-buttons.action-pill-button
+                                                    href="{{ route('admin.subscribers.destroy', $subscriber->id) }}"
+                                                    iconClass="fa fa-trash" iconColor="danger" />
+                                            @endif
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>

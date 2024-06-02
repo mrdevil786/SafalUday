@@ -38,9 +38,9 @@ class DatabaseSeeder extends Seeder
         // Create an Editor user
         User::updateOrCreate(
             [
-                'email' => 'manager@gmail.com',
+                'email' => 'editor@gmail.com',
                 'user_role' => '2', // '2' represents the Editor role
-                'name' => 'Manager',
+                'name' => 'Editor',
                 'password' => Hash::make('admin'),
                 'status' => 'active',
             ]
@@ -49,9 +49,9 @@ class DatabaseSeeder extends Seeder
         // Create a Viewer user
         User::updateOrCreate(
             [
-                'email' => 'member@gmail.com',
+                'email' => 'viewer@gmail.com',
                 'user_role' => '3', // '3' represents the Viewer role
-                'name' => 'Member',
+                'name' => 'Viewer',
                 'password' => Hash::make('admin'),
                 'status' => 'active',
             ]

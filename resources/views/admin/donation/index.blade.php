@@ -59,9 +59,12 @@
                                             @elseif ($donation->status == 'pending')
                                                 <span
                                                     class="badge rounded-pill bg-warning badge-sm me-1 mb-1 mt-1">Pending</span>
+                                            @elseif ($donation->status == 'failed')
+                                                <span
+                                                    class="badge rounded-pill bg-danger badge-sm me-1 mb-1 mt-1">Failed</span>
                                             @else
                                                 <span
-                                                    class="badge rounded-pill bg-danger badge-sm me-1 mb-1 mt-1">{{ $donation->status }}</span>
+                                                    class="badge rounded-pill bg-secondary badge-sm me-1 mb-1 mt-1">{{ $donation->status }}</span>
                                             @endif
                                         </td>
                                         <td>{{ $donation->created_at }}</td>

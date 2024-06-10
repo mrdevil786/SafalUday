@@ -14,7 +14,7 @@ class DonationsController extends Controller
         return view('admin.donation.index', compact('donations'));
     }
 
-    // DELETE A SUBSCRIBER
+    // DELETE A DONATION
     public function destroy($id)
     {
         $donation = Payment::findOrFail($id);
@@ -23,7 +23,7 @@ class DonationsController extends Controller
         return redirect()->route('admin.donations.index')->with('success', 'Subscriber deleted successfully!');
     }
 
-    // TRUNCATE ALL SUBSCRIBERS
+    // TRUNCATE ALL DONATION
     public function flush()
     {
         $oneHourAgo = Carbon::now()->subHour();

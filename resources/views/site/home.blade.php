@@ -15,10 +15,9 @@
                         <img src="{{ asset('website/assets/img/carousel-1.jpg') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
-                        <h1>Let's be kind for children</h1>
+                        <h1>Empowering communities, igniting change</h1>
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac
-                            consequat at lectus in malesuada
+                            By providing education and internet access, we enable communities and advance equality and opportunity. By enhancing learning and digital competencies for everyone, we promote inclusive settings and women's empowerment through skill development, mentorship, and entrepreneurial support.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>
@@ -33,10 +32,9 @@
                         <img src="{{ asset('website/assets/img/carousel-2.jpg') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
-                        <h1>Get Involved with helping hand</h1>
+                        <h1>Uniting hearts, transforming lives.</h1>
                         <p>
-                            Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci
-                            sodales varius fermentum, tortor
+                            We bring people together with compassion and understanding, encouraging positive transformation and appreciating variety. Uniting hearts, transforming lives. Our goal is to empower people, create a society where everyone is prosperous, and erect barriers between communities.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>
@@ -51,10 +49,9 @@
                         <img src="{{ asset('website/assets/img/carousel-3.jpg') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
-                        <h1>Bringing smiles to millions</h1>
+                        <h1>Creating a brighter tomorrow, together.</h1>
                         <p>
-                            Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula
-                            euismod quam. Proin pellentesque odio
+                            Together, we can create a brighter tomorrow by empowering communities, fostering resilience, and enacting positive change for a sustainable future via cooperation and innovation.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>
@@ -118,26 +115,13 @@
 
                         <div class="tab-content">
                             <div id="tab-content-1" class="container tab-pane active">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis.
-                                Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis
-                                porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et
-                                felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque.
-                                Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Our organization is dedicated to catalyzing social change by implementing sustainable development projects, fostering community empowerment, and advocating for the marginalized. Through strategic partnerships and innovative solutions, we aim to address pressing social issues, promote equality, and improve the quality of life for individuals and communities in need. Our work spans across various sectors, including education, healthcare, environmental conservation, and livelihood enhancement, with a commitment to creating lasting impact and fostering a brighter future for all.
                             </div>
                             <div id="tab-content-2" class="container tab-pane fade">
-                                Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue
-                                turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis
-                                ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et
-                                malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus
-                                molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Empower people with digital learning, entrepreneurship, and education—especially women. All people should have equal chances. Women should be empowered via skill development and mentorship. The digital divide should be closed by providing access to resources. Improve education, develop digital literacy, and build a prosperous, inclusive community where everyone can benefit. Have a constructive influence on people and communities.
                             </div>
                             <div id="tab-content-3" class="container tab-pane fade">
-                                Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim
-                                lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis
-                                in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris
-                                ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit
-                                amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
+                                Through entrepreneurship and education, we empower people—women in particular—and promote equality of opportunity. We provide people with the necessary skills for the digital age by sparking creativity and bridging the digital divide. Our goal is to create a wide ripple effect of empowered individuals who uplift their communities, thereby catalyzing societal change. We support women's empowerment because it gives them the tools to overcome obstacles and fosters lifelong learning for ongoing development. Our goal is to leave a lasting legacy of empowerment by empowering people to achieve a better future with the information and skills they need to flourish.
                             </div>
                         </div>
                     </div>
@@ -153,7 +137,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>What We Do?</p>
-                <h2>We believe that we can save more lifes with you</h2>
+                <h2>Empowering education and combating unemployment are our core missions. Join us to create change together!</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -400,13 +384,11 @@
                     <div class="donate-content">
                         <div class="section-header">
                             <p>Donate Now</p>
-                            <h2>Let's donate to needy people for better lives</h2>
+                            <h2>Empower dreams, donate to sculpt a brighter future.</h2>
                         </div>
                         <div class="donate-text">
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
-                                velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl
-                                nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                With your donation, you can fuel hopes for a better future. Your contributions have a long-lasting effect that raises hopes and promotes development all around the world.
                             </p>
                         </div>
                     </div>
@@ -511,8 +493,8 @@
                             <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Donald John</h2>
-                            <p>Founder & CEO</p>
+                            <h2>Sadaf Zuberi</h2>
+                            <p>Founder</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -528,8 +510,8 @@
                             <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Adam Phillips</h2>
-                            <p>Chef Executive</p>
+                            <h2>Asna Shoib</h2>
+                            <p>Content Writer & Social Media Manager</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -545,8 +527,8 @@
                             <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Thomas Olsen</h2>
-                            <p>Chef Advisor</p>
+                            <h2>Mariyam Fatima</h2>
+                            <p>Content Writer</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -562,8 +544,8 @@
                             <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>James Alien</h2>
-                            <p>Advisor</p>
+                            <h2>Muba Khan</h2>
+                            <p>Graphic Designer</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -605,13 +587,11 @@
                     <div class="volunteer-content">
                         <div class="section-header">
                             <p>Become A Volunteer</p>
-                            <h2>Let’s make a difference in the lives of others</h2>
+                            <h2>Sprout hope, join us as a volunteer and bloom with purpose!</h2>
                         </div>
                         <div class="volunteer-text">
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
-                                velit non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl
-                                nec nisi maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                Join our team as a volunteer and be part of something truly special. Your time and dedication can make a real difference in the lives of others. Whether you're passionate about helping the community, spreading kindness, or making a positive impact, volunteering with us is a rewarding experience. Together, we can create meaningful change and work towards a brighter future. Take the first step today and become our volunteer to contribute your unique skills and make a lasting difference in the world.
                             </p>
                         </div>
                     </div>

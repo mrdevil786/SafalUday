@@ -17,7 +17,7 @@
                     <div class="carousel-text">
                         <h1>Empowering communities, igniting change</h1>
                         <p>
-                            By providing education and internet access, we enable communities and advance equality and opportunity. By enhancing learning and digital competencies for everyone, we promote inclusive settings and women's empowerment through skill development, mentorship, and entrepreneurial support.
+                            Through mentorship and the acquisition of digital skills, education and internet access promote equality, inclusivity, and women's empowerment.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>
@@ -34,7 +34,7 @@
                     <div class="carousel-text">
                         <h1>Uniting hearts, transforming lives.</h1>
                         <p>
-                            We bring people together with compassion and understanding, encouraging positive transformation and appreciating variety. Uniting hearts, transforming lives. Our goal is to empower people, create a society where everyone is prosperous, and erect barriers between communities.
+                            Bringing people together, changing lives. encouraging positive change, valuing diversity, and empowering people for a prosperous society.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>
@@ -51,7 +51,7 @@
                     <div class="carousel-text">
                         <h1>Creating a brighter tomorrow, together.</h1>
                         <p>
-                            Together, we can create a brighter tomorrow by empowering communities, fostering resilience, and enacting positive change for a sustainable future via cooperation and innovation.
+                            Collaborate and innovate to empower communities, build resilience, and build a sustainable future.
                         </p>
                         <div class="carousel-btn">
                             <a class="btn btn-custom" href="">Donate Now</a>

@@ -137,7 +137,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>What We Do?</p>
-                <h2>Empowering education and combating unemployment are our core missions. Join us to create change together!</h2>
+                <h2>Empowering youth and providing employment are our core missions. Join us to create change together!</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -483,14 +483,82 @@
     <div class="team">
         <div class="container">
             <div class="section-header text-center">
-                <p>Meet Our Team</p>
-                <h2>Awesome guys behind our charity activities</h2>
+                {{-- <p>Meet Our Team</p> --}}
+                <h2>Meet Our Team</h2>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
                             <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Sadaf Zuberi</h2>
+                            <p>Founder</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-6.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Sadaf Zuberi</h2>
+                            <p>Founder</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-9.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Sadaf Zuberi</h2>
+                            <p>Founder</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-7.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Sadaf Zuberi</h2>
+                            <p>Founder</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-8.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
                             <h2>Sadaf Zuberi</h2>
@@ -559,6 +627,188 @@
         </div>
     </div>
     <!-- Team End -->
+
+    <!-- Advisor Commitee starts -->
+    <div class="team">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Advisor Commitee Board</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-1.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-2.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-3.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-4.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-5.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-6.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-7.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-8.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-9.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-10.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Advisor Commitee ends -->
 
 
     <!-- Volunteer Start -->

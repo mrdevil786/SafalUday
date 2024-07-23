@@ -406,8 +406,8 @@
                             <img src="{{ asset('website/assets/img/team-6.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Sadaf Zuberi</h2>
-                            <p>Founder</p>
+                            <h2>Subuhi Kashif Ali Khan</h2>
+                            <p>Program Head</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -423,8 +423,8 @@
                             <img src="{{ asset('website/assets/img/team-9.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Sadaf Zuberi</h2>
-                            <p>Founder</p>
+                            <h2>Rida Sagheer</h2>
+                            <p>Chief Operation Officer</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -440,12 +440,12 @@
                             <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Sadaf Zuberi</h2>
-                            <p>Founder</p>
+                            <h2>Suhail Saeed Usmani</h2>
+                            <p>Developer</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i class="fab fa-linkedin-in"></i></a>
                                 <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -457,8 +457,8 @@
                             <img src="{{ asset('website/assets/img/team-8.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Sadaf Zuberi</h2>
-                            <p>Founder</p>
+                            <h2>Rukhsar Ahmed</h2>
+                            <p>Communication Manager</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>

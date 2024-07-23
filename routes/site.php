@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Website\BasicController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\DonationController;
 use App\Http\Controllers\Website\SubscriberController;
@@ -22,3 +23,6 @@ Route::post('/unsubscribe', [SubscriberController::class, 'unsubscribe'])->name(
 Route::get('/donate', [DonationController::class, 'index'])->name('donate.form');
 Route::post('/donate', [DonationController::class, 'processPayment'])->name('donate.process');
 Route::post('/payment-success', [DonationController::class, 'paymentSuccess'])->name('donate.success');
+
+Route::get('/privacy-policy', [BasicController::class, 'privacy_policy'])->name('site.privacy-policy');
+Route::get('/terms-of-service',[BasicController::class, 'terms_of_service'])->name('site.terms-of-service');

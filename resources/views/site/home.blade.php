@@ -98,7 +98,7 @@
                 <div class="col-lg-6">
                     <div class="section-header">
                         <p>Learn About Us</p>
-                        <h2>Worldwide non-profit charity organization</h2>
+                        <h2>Not for profit social organization</h2>
                     </div>
                     <div class="about-tab">
                         <ul class="nav nav-pills nav-justified">
@@ -118,7 +118,7 @@
                                 Our organization is dedicated to catalyzing social change by implementing sustainable development projects, fostering community empowerment, and advocating for the marginalized. Through strategic partnerships and innovative solutions, we aim to address pressing social issues, promote equality, and improve the quality of life for individuals and communities in need. Our work spans across various sectors, including education, healthcare, environmental conservation, and livelihood enhancement, with a commitment to creating lasting impact and fostering a brighter future for all.
                             </div>
                             <div id="tab-content-2" class="container tab-pane fade">
-                                Empower people with digital learning, entrepreneurship, and education—especially women. All people should have equal chances. Women should be empowered via skill development and mentorship. The digital divide should be closed by providing access to resources. Improve education, develop digital literacy, and build a prosperous, inclusive community where everyone can benefit. Have a constructive influence on people and communities.
+                                Empower people with digital learning, entrepreneurship, and education to every section of society. All people should have equal chances. Women should be empowered via skill development and mentorship. The digital divide should be closed by providing access to resources. Improve education, develop digital literacy, and build a prosperous, inclusive community where everyone can benefit. Have a constructive influence on people and communities.
                             </div>
                             <div id="tab-content-3" class="container tab-pane fade">
                                 Through entrepreneurship and education, we empower people—women in particular—and promote equality of opportunity. We provide people with the necessary skills for the digital age by sparking creativity and bridging the digital divide. Our goal is to create a wide ripple effect of empowered individuals who uplift their communities, thereby catalyzing societal change. We support women's empowerment because it gives them the tools to overcome obstacles and fosters lifelong learning for ongoing development. Our goal is to leave a lasting legacy of empowerment by empowering people to achieve a better future with the information and skills they need to flourish.
@@ -258,7 +258,7 @@
     <!-- Facts End -->
 
 
-    <!-- Causes Start -->
+    <!-- Causes Start
     <div class="causes">
         <div class="container">
             <div class="section-header text-center">
@@ -373,111 +373,7 @@
             </div>
         </div>
     </div>
-    <!-- Causes End -->
-
-
-    <!-- Donate Start -->
-    <div class="donate" data-parallax="scroll" data-image-src="{{ asset('website/assets/img/donate.jpg') }}">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="donate-content">
-                        <div class="section-header">
-                            <p>Donate Now</p>
-                            <h2>Empower dreams, donate to sculpt a brighter future.</h2>
-                        </div>
-                        <div class="donate-text">
-                            <p>
-                                With your donation, you can fuel hopes for a better future. Your contributions have a long-lasting effect that raises hopes and promotes development all around the world.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="donate-form">
-                        <form>
-                            <div class="control-group">
-                                <input type="text" class="form-control" placeholder="Name" required="required" />
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" placeholder="Email" required="required" />
-                            </div>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                <label class="btn btn-custom active">
-                                    <input type="radio" name="options" checked> $10
-                                </label>
-                                <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $20
-                                </label>
-                                <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $30
-                                </label>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit">Donate Now</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Donate End -->
-
-
-    <!-- Event Start -->
-    <div class="event">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Upcoming Events</p>
-                <h2>Be ready for our upcoming charity events</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                            </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-2.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                            </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Event End -->
-
+    Causes End -->
 
     <!-- Team Start -->
     <div class="team">
@@ -486,7 +382,7 @@
                 {{-- <p>Meet Our Team</p> --}}
                 <h2>Meet Our Team</h2>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
@@ -541,7 +437,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-7.jpg') }}" alt="Team Image">
+                            <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
                             <h2>Sadaf Zuberi</h2>
@@ -623,10 +519,166 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-10.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Graphic Designer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-11.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Graphic Designer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/team-5.jpg') }}" alt="Team Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Graphic Designer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- Team End -->
+
+
+    <!-- Donate Start -->
+    <div class="donate" data-parallax="scroll" data-image-src="{{ asset('website/assets/img/donate.jpg') }}">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="donate-content">
+                        <div class="section-header">
+                            <p>Donate Now</p>
+                            <h2>Empower dreams, donate to sculpt a brighter future.</h2>
+                        </div>
+                        <div class="donate-text">
+                            <p>
+                                With your donation, you can fuel hopes for a better future. Your contributions have a long-lasting effect that raises hopes and promotes development all around the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="donate-form">
+                        <form>
+                            <div class="control-group">
+                                <input type="text" class="form-control" placeholder="Name" required="required" />
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" placeholder="Email" required="required" />
+                            </div>
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-custom active">
+                                    <input type="radio" name="options" checked> $10
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="options"> $20
+                                </label>
+                                <label class="btn btn-custom">
+                                    <input type="radio" name="options"> $30
+                                </label>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit">Donate Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donate End -->
+
+
+
+    <!-- Event Start
+    <div class="event">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Upcoming Events</p>
+                <h2>Be ready for our upcoming charity events</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="event-item">
+                        <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
+                        <div class="event-content">
+                            <div class="event-meta">
+                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                            </div>
+                            <div class="event-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
+                                    vulpte liqum metus tortor
+                                </p>
+                                <a class="btn btn-custom" href="">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="event-item">
+                        <img src="{{ asset('website/assets/img/event-2.jpg') }}" alt="Image">
+                        <div class="event-content">
+                            <div class="event-meta">
+                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                            </div>
+                            <div class="event-text">
+                                <h3>Lorem ipsum dolor sit</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
+                                    vulpte liqum metus tortor
+                                </p>
+                                <a class="btn btn-custom" href="">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Event End -->
+
 
     <!-- Advisor Commitee starts -->
     <div class="team">
@@ -634,7 +686,7 @@
             <div class="section-header text-center">
                 <h2>Advisor Commitee Board</h2>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
@@ -706,7 +758,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-5.jpg') }}" alt="Advisor Committee Image">
+                            <img src="{{ asset('website/assets/img/advisor-11.jpg') }}" alt="Advisor Committee Image">
                         </div>
                         <div class="team-text">
                             <h2>Muba Khan</h2>
@@ -791,6 +843,23 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="team-item">
                         <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-12.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Dr. Abdul Mabood</h2>
+                            <p>Managing Director, Prime Care Hospital, Lucknow </p>
+                            <div class="team-social">
+                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                <a href="https://www.linkedin.com/in/dr-abdul-mabood-68351b8b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/mabood295?utm_source=qr&igsh=MWthOHA4eDBqeWM5eQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
                             <img src="{{ asset('website/assets/img/advisor-10.jpg') }}" alt="Advisor Committee Image">
                         </div>
                         <div class="team-text">
@@ -852,7 +921,7 @@
     <!-- Volunteer End -->
 
 
-    <!-- Testimonial Start -->
+    <!-- Testimonial Start
     <div class="testimonial">
         <div class="container">
             <div class="section-header text-center">
@@ -923,7 +992,7 @@
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+    Testimonial End -->
 
 
     <!-- Contact Start -->

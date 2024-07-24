@@ -559,8 +559,8 @@
                             <img src="{{ asset('website/assets/img/team-5.jpg') }}" alt="Team Image">
                         </div>
                         <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Graphic Designer</p>
+                            <h2>Aisha Badruddin</h2>
+                            <p>Designation</p>
                             <div class="team-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -853,6 +853,40 @@
                                 {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
                                 <a href="https://www.linkedin.com/in/dr-abdul-mabood-68351b8b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="https://www.instagram.com/mabood295?utm_source=qr&igsh=MWthOHA4eDBqeWM5eQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-13.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-item">
+                        <div class="team-img">
+                            <img src="{{ asset('website/assets/img/advisor-14.jpg') }}" alt="Advisor Committee Image">
+                        </div>
+                        <div class="team-text">
+                            <h2>Muba Khan</h2>
+                            <p>Web Developer</p>
+                            <div class="team-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>

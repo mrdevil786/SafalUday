@@ -893,6 +893,8 @@ a:focus {
 
 .causes .causes-img img {
     width: 100%;
+    height: 400px;
+    object-fit: contain;
     transition: .3s;
 }
 
@@ -955,7 +957,7 @@ a:focus {
 }
 
 .causes .causes-text {
-    padding: 0 30px;
+    padding: 10px;
 }
 
 .causes .causes-text h3 {
@@ -968,14 +970,14 @@ a:focus {
 }
 
 .causes .causes-btn {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     display: flex;
     justify-content: space-between;
 }
 
 .causes .causes-btn .btn {
     padding: 10px 0;
-    width: 50%;
+    width: 100%;
 }
 
 .causes .causes-btn .btn:last-child {

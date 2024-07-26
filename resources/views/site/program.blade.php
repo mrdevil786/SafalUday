@@ -1,8 +1,8 @@
 @extends('site.layout.main')
 
-@section('website-page-title', 'About')
+@section('website-page-title', 'Program')
 
-@section('website-active-about','active')
+@section('website-active-program', 'active')
 
 @section('website-main-section')
 
@@ -15,7 +15,7 @@
                 </div>
                 <div class="col-12">
                     <a href="">Home</a>
-                    <a href="">Program</a>
+                    <a href="">Programs</a>
                 </div>
             </div>
         </div>
@@ -23,58 +23,196 @@
     <!-- Page Header End -->
 
 
-<!-- Event Start -->
-    <div class="event">
+    <!-- Blog Start -->
+    <div class="blog">
         <div class="container">
             <div class="section-header text-center">
-                <p>Upcoming Events</p>
-                <h2>Be ready for our upcoming charity events</h2>
+                <p>Our Programs</p>
+                <h2>Programs conducted by SafalUday Foundation for the betterment of society</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                            </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
-                            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-1.jpg') }}" alt="Image">
                         </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Drawing Competition</a></h3>
+                            <p>
+                                The advancement of society depends on women's empowerment. It entails giving them the tools
+                                and chances they need to succeed, improving their general quality of life, and advancing
+                                gender equality.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-2.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                            </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
-                            </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-2.jpg') }}" alt="Image">
                         </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Health Camp</a></h3>
+                            <p>
+                                The secret to a prosperous future is to uplift the youth. It is essential to arm them with
+                                information and abilities. Effective approaches to education and community involvement are
+                                examined in this article..
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-3.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Workshop for Girls</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-4.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Cleanliness Drive</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-5.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Health & Hygiene Sessions</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-6.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Food Distribution</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-7.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Connecticum Classes</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-8.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Domestic Violence</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="{{ asset('website/assets/img/program-9.jpg') }}" alt="Image">
+                        </div>
+                        <div class="blog-text">
+                            <h3><a href="#">Blood Donation Drive</a></h3>
+                            <p>
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
+                            </p>
+                        </div>
+                        {{-- <div class="blog-meta">
+                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Event End -->
+    <!-- Blog End -->
 
 
 

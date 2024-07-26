@@ -1,8 +1,8 @@
 @extends('site.layout.main')
 
-@section('website-page-title','Home')
+@section('website-page-title', 'Home')
 
-@section('website-active-home','active')
+@section('website-active-home', 'active')
 
 @section('website-main-section')
 
@@ -17,10 +17,11 @@
                     <div class="carousel-text">
                         <h1>Empowering communities, igniting change</h1>
                         <p>
-                            Through mentorship and the acquisition of digital skills, education and internet access promote equality, inclusivity, and women's empowerment.
+                            Through mentorship and the acquisition of digital skills, education and internet access promote
+                            equality, inclusivity, and women's empowerment.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -34,10 +35,11 @@
                     <div class="carousel-text">
                         <h1>Uniting hearts, transforming lives.</h1>
                         <p>
-                            Bringing people together, changing lives. encouraging positive change, valuing diversity, and empowering people for a prosperous society.
+                            Bringing people together, changing lives. encouraging positive change, valuing diversity, and
+                            empowering people for a prosperous society.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -51,10 +53,11 @@
                     <div class="carousel-text">
                         <h1>Creating a brighter tomorrow, together.</h1>
                         <p>
-                            Collaborate and innovate to empower communities, build resilience, and build a sustainable future.
+                            Collaborate and innovate to empower communities, build resilience, and build a sustainable
+                            future.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -115,13 +118,31 @@
 
                         <div class="tab-content">
                             <div id="tab-content-1" class="container tab-pane active">
-                                Our organization is dedicated to catalyzing social change by implementing sustainable development projects, fostering community empowerment, and advocating for the marginalized. Through strategic partnerships and innovative solutions, we aim to address pressing social issues, promote equality, and improve the quality of life for individuals and communities in need. Our work spans across various sectors, including education, healthcare, environmental conservation, and livelihood enhancement, with a commitment to creating lasting impact and fostering a brighter future for all.
+                                Our organization is dedicated to catalyzing social change by implementing sustainable
+                                development projects, fostering community empowerment, and advocating for the marginalized.
+                                Through strategic partnerships and innovative solutions, we aim to address pressing social
+                                issues, promote equality, and improve the quality of life for individuals and communities in
+                                need. Our work spans across various sectors, including education, healthcare, environmental
+                                conservation, and livelihood enhancement, with a commitment to creating lasting impact and
+                                fostering a brighter future for all.
                             </div>
                             <div id="tab-content-2" class="container tab-pane fade">
-                                Empower people with digital learning, entrepreneurship, and education to every section of society. All people should have equal chances. Women should be empowered via skill development and mentorship. The digital divide should be closed by providing access to resources. Improve education, develop digital literacy, and build a prosperous, inclusive community where everyone can benefit. Have a constructive influence on people and communities.
+                                Empower people with digital learning, entrepreneurship, and education to every section of
+                                society. All people should have equal chances. Women should be empowered via skill
+                                development and mentorship. The digital divide should be closed by providing access to
+                                resources. Improve education, develop digital literacy, and build a prosperous, inclusive
+                                community where everyone can benefit. Have a constructive influence on people and
+                                communities.
                             </div>
                             <div id="tab-content-3" class="container tab-pane fade">
-                                Through entrepreneurship and education, we empower people—women in particular—and promote equality of opportunity. We provide people with the necessary skills for the digital age by sparking creativity and bridging the digital divide. Our goal is to create a wide ripple effect of empowered individuals who uplift their communities, thereby catalyzing societal change. We support women's empowerment because it gives them the tools to overcome obstacles and fosters lifelong learning for ongoing development. Our goal is to leave a lasting legacy of empowerment by empowering people to achieve a better future with the information and skills they need to flourish.
+                                Through entrepreneurship and education, we empower people—women in particular—and promote
+                                equality of opportunity. We provide people with the necessary skills for the digital age by
+                                sparking creativity and bridging the digital divide. Our goal is to create a wide ripple
+                                effect of empowered individuals who uplift their communities, thereby catalyzing societal
+                                change. We support women's empowerment because it gives them the tools to overcome obstacles
+                                and fosters lifelong learning for ongoing development. Our goal is to leave a lasting legacy
+                                of empowerment by empowering people to achieve a better future with the information and
+                                skills they need to flourish.
                             </div>
                         </div>
                     </div>
@@ -137,71 +158,71 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>What We Do?</p>
-                <h2>Empowering youth and providing employment are our core missions. Join us to create change together!</h2>
+                <h2>Empowering youth and providing healthcare are our core missions. Join us to create change together!</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <div class="service-icon">
-                            <i class="flaticon-diet"></i>
-                        </div>
+                        {{-- <div class="service-icon">
+                            <i class="flaticon-development"></i>
+                        </div> --}}
                         <div class="service-text">
-                            <h3>Healthy Food</h3>
+                            <h3>Skill Development.</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <div class="service-icon">
+                        {{-- <div class="service-icon">
                             <i class="flaticon-water"></i>
-                        </div>
+                        </div> --}}
                         <div class="service-text">
-                            <h3>Pure Water</h3>
+                            <h3>Youth Empowerment</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <div class="service-icon">
+                        {{-- <div class="service-icon">
                             <i class="flaticon-healthcare"></i>
-                        </div>
+                        </div> --}}
                         <div class="service-text">
-                            <h3>Health Care</h3>
+                            <h3>Career Guidance</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <div class="service-icon">
+                        {{-- <div class="service-icon">
+                            <i class="flaticon-healthcare"></i>
+                        </div> --}}
+                        <div class="service-text">
+                            <h3>Healthcare</h3>
+                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item">
+                        {{-- <div class="service-icon">
                             <i class="flaticon-education"></i>
-                        </div>
+                        </div> --}}
                         <div class="service-text">
-                            <h3>Primary Education</h3>
+                            <h3>Education</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item">
-                        <div class="service-icon">
-                            <i class="flaticon-home"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3>Residence Facilities</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item">
-                        <div class="service-icon">
+                        {{-- <div class="service-icon">
                             <i class="flaticon-social-care"></i>
-                        </div>
+                        </div> --}}
                         <div class="service-text">
-                            <h3>Social Care</h3>
+                            <h3>Environment</h3>
                             <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
                         </div>
                     </div>
@@ -277,7 +298,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/sadaf-zuberi-a72310b8/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/sadaf-zuberi-a72310b8/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -290,7 +312,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/dr-rida-sagheer-b2775b75/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/dr-rida-sagheer-b2775b75/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -316,7 +339,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/suhailsaeedusmani/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -329,7 +353,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/aisha-badruddin-phd-52768271/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/aisha-badruddin-phd-52768271/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -368,7 +393,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/muba-khan-55330a261/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/muba-khan-55330a261/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -381,7 +407,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 <div class="causes-item">
@@ -394,7 +421,8 @@
                     </div>
                     <div class="causes-btn">
                         {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i class="fab fa-linkedin"></i> Join Now</a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
                 {{-- <div class="causes-item">
@@ -478,192 +506,192 @@
             </div>
         </div>
     </div>
-   <!-- Causes End -->
+    <!-- Causes End -->
 
     <!-- Team Start
-    <div class="team">
-        <div class="container">
-            <div class="section-header text-center">
-                {{-- <p>Meet Our Team</p> --}}
-                <h2>Meet Our Team</h2>
+            <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        {{-- <p>Meet Our Team</p> --}}
+                        <h2>Meet Our Team</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Sadaf Zuberi</h2>
+                                    <p>Founder</p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/sadaf-zuberi-a72310b8/"><i class="fab fa-linkedin-in"></i></a>
+                                        {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-6.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Subuhi Kashif Ali Khan</h2>
+                                    <p>Program Head</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-9.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Rida Sagheer</h2>
+                                    <p>Chief Operation Officer</p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/dr-rida-sagheer-b2775b75/"><i class="fab fa-linkedin-in"></i></a>
+                                        {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Suhail Saeed Usmani</h2>
+                                    <p>Developer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Asna Shoib</h2>
+                                    <p>Content Writer & Social Media Manager</p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i class="fab fa-linkedin-in"></i></a>
+                                        {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Mariyam Fatima</h2>
+                                    <p>Content Writer</p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i class="fab fa-linkedin-in"></i></a>
+                                        {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Muba Khan</h2>
+                                    <p>Web Developer & Graphic Designer</p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/muba-khan-55330a261/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.instagram.com/muba_khan08/"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-10.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Muba Khan</h2>
+                                    <p>Graphic Designer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-11.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Muba Khan</h2>
+                                    <p>Graphic Designer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/team-5.jpg') }}" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Aisha Badruddin</h2>
+                                    <p>Operation Officer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Sadaf Zuberi</h2>
-                            <p>Founder</p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/sadaf-zuberi-a72310b8/"><i class="fab fa-linkedin-in"></i></a>
-                                {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-6.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Subuhi Kashif Ali Khan</h2>
-                            <p>Program Head</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-9.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Rida Sagheer</h2>
-                            <p>Chief Operation Officer</p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/dr-rida-sagheer-b2775b75/"><i class="fab fa-linkedin-in"></i></a>
-                                {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Suhail Saeed Usmani</h2>
-                            <p>Developer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Asna Shoib</h2>
-                            <p>Content Writer & Social Media Manager</p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i class="fab fa-linkedin-in"></i></a>
-                                {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Mariyam Fatima</h2>
-                            <p>Content Writer</p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i class="fab fa-linkedin-in"></i></a>
-                                {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Web Developer & Graphic Designer</p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/muba-khan-55330a261/"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://www.instagram.com/muba_khan08/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-10.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Graphic Designer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-11.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Graphic Designer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-5.jpg') }}" alt="Team Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Aisha Badruddin</h2>
-                            <p>Operation Officer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    Team End -->
+            Team End -->
 
-    
+
 
 
     <!-- Donate Start -->
@@ -678,7 +706,8 @@
                         </div>
                         <div class="donate-text">
                             <p>
-                                With your donation, you can fuel hopes for a better future. Your contributions have a long-lasting effect that raises hopes and promotes development all around the world.
+                                With your donation, you can fuel hopes for a better future. Your contributions have a
+                                long-lasting effect that raises hopes and promotes development all around the world.
                             </p>
                         </div>
                     </div>
@@ -717,57 +746,57 @@
 
 
     <!-- Event Start
-    <div class="event">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Upcoming Events</p>
-                <h2>Be ready for our upcoming charity events</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
+            <div class="event">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Upcoming Events</p>
+                        <h2>Be ready for our upcoming charity events</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="event-item">
+                                <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
+                                <div class="event-content">
+                                    <div class="event-meta">
+                                        <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                        <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                        <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    </div>
+                                    <div class="event-text">
+                                        <h3>Lorem ipsum dolor sit</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
+                                            vulpte liqum metus tortor
+                                        </p>
+                                        <a class="btn btn-custom" href="">Join Now</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="event-item">
+                                <img src="{{ asset('website/assets/img/event-2.jpg') }}" alt="Image">
+                                <div class="event-content">
+                                    <div class="event-meta">
+                                        <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
+                                        <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                                        <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                    </div>
+                                    <div class="event-text">
+                                        <h3>Lorem ipsum dolor sit</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
+                                            vulpte liqum metus tortor
+                                        </p>
+                                        <a class="btn btn-custom" href="">Join Now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="event-item">
-                        <img src="{{ asset('website/assets/img/event-2.jpg') }}" alt="Image">
-                        <div class="event-content">
-                            <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                            </div>
-                            <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
-                                </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
-    Event End -->
+            Event End -->
 
     <div class="causes">
         <div class="container">
@@ -959,244 +988,244 @@
                         <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
 
     <!-- Advisor Commitee starts
-    <div class="team">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2>Advisor Commitee Board</h2>
+            <div class="team">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <h2>Advisor Commitee Board</h2>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-1.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Prof. Gauhar Mehmood</h2>
+                                    <p>Civil Eng. Dept., Jamia Milia Islamia, S. Delhi</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-2.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Udayan Salim Banerjee</h2>
+                                    <p>Training Consultant, Noida, Uttar Pradesh, India.</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-3.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Ajax Kunju Mohamed</h2>
+                                    <p>SVP & MD, Nutragroup, Frankfurt, Germany</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-4.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Mohammad Saud Afzal</h2>
+                                    <p>Associate professor, IIT, West Bengal</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-11.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Sana Iqbal</h2>
+                                    <p>MBBS, DGO, Gynae, Medison Hospital, Lucknow</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-6.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Mohd Shuaib Siddiqui</h2>
+                                    <p>Asst. Prof., Business Mgmt, Univ. of Tabuk, Saudi Arabia</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-7.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr.Mohd Imran Khan</h2>
+                                    <p>BSc, BDS, MDS, 485/284 Jailors Compound, Daliganj, Lucknow, India</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-8.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Mohammad Hassan Baig</h2>
+                                    <p>CTO BNJ Biopharma, Seoul, South Korea</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-9.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Prashant Kumar Mishra</h2>
+                                    <p>STC, Kuwait</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-12.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Abdul Mabood</h2>
+                                    <p>Managing Director, Prime Care Hospital, Lucknow </p>
+                                    <div class="team-social">
+                                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
+                                        {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
+                                        <a href="https://www.linkedin.com/in/dr-abdul-mabood-68351b8b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="https://www.instagram.com/mabood295?utm_source=qr&igsh=MWthOHA4eDBqeWM5eQ%3D%3D"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-13.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Muba Khan</h2>
+                                    <p>Web Developer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-14.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Muba Khan</h2>
+                                    <p>Web Developer</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="{{ asset('website/assets/img/advisor-10.jpg') }}" alt="Advisor Committee Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>Dr. Kaneez Fatima</h2>
+                                    <p>Research Associate, Biotech, UPenn, USA</p>
+                                    <div class="team-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-1.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Prof. Gauhar Mehmood</h2>
-                            <p>Civil Eng. Dept., Jamia Milia Islamia, S. Delhi</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-2.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Udayan Salim Banerjee</h2>
-                            <p>Training Consultant, Noida, Uttar Pradesh, India.</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-3.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Ajax Kunju Mohamed</h2>
-                            <p>SVP & MD, Nutragroup, Frankfurt, Germany</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-4.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Mohammad Saud Afzal</h2>
-                            <p>Associate professor, IIT, West Bengal</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-11.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Sana Iqbal</h2>
-                            <p>MBBS, DGO, Gynae, Medison Hospital, Lucknow</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-6.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Mohd Shuaib Siddiqui</h2>
-                            <p>Asst. Prof., Business Mgmt, Univ. of Tabuk, Saudi Arabia</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-7.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr.Mohd Imran Khan</h2>
-                            <p>BSc, BDS, MDS, 485/284 Jailors Compound, Daliganj, Lucknow, India</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-8.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Mohammad Hassan Baig</h2>
-                            <p>CTO BNJ Biopharma, Seoul, South Korea</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-9.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Prashant Kumar Mishra</h2>
-                            <p>STC, Kuwait</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-12.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Abdul Mabood</h2>
-                            <p>Managing Director, Prime Care Hospital, Lucknow </p>
-                            <div class="team-social">
-                                {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
-                                {{-- <a href=""><i class="fab fa-facebook-f"></i></a> --}}
-                                <a href="https://www.linkedin.com/in/dr-abdul-mabood-68351b8b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://www.instagram.com/mabood295?utm_source=qr&igsh=MWthOHA4eDBqeWM5eQ%3D%3D"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-13.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Web Developer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-14.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Web Developer</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/advisor-10.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Dr. Kaneez Fatima</h2>
-                            <p>Research Associate, Biotech, UPenn, USA</p>
-                            <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    Advisor Commitee ends -->
+            Advisor Commitee ends -->
 
 
     <!-- Volunteer Start -->
@@ -1229,7 +1258,12 @@
                         </div>
                         <div class="volunteer-text">
                             <p>
-                                Join our team as a volunteer and be part of something truly special. Your time and dedication can make a real difference in the lives of others. Whether you're passionate about helping the community, spreading kindness, or making a positive impact, volunteering with us is a rewarding experience. Together, we can create meaningful change and work towards a brighter future. Take the first step today and become our volunteer to contribute your unique skills and make a lasting difference in the world.
+                                Join our team as a volunteer and be part of something truly special. Your time and
+                                dedication can make a real difference in the lives of others. Whether you're passionate
+                                about helping the community, spreading kindness, or making a positive impact, volunteering
+                                with us is a rewarding experience. Together, we can create meaningful change and work
+                                towards a brighter future. Take the first step today and become our volunteer to contribute
+                                your unique skills and make a lasting difference in the world.
                             </p>
                         </div>
                     </div>
@@ -1371,10 +1405,11 @@
                             <img src="{{ asset('website/assets/img/blog-1.jpg') }}" alt="Image">
                         </div>
                         <div class="blog-text">
-                            <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                            <h3><a href="#">Empowering Women: Building Opportunities for a Better Future</a></h3>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor
+                                The advancement of society depends on women's empowerment. It entails giving them the tools
+                                and chances they need to succeed, improving their general quality of life, and advancing
+                                gender equality.
                             </p>
                         </div>
                         <div class="blog-meta">
@@ -1389,10 +1424,11 @@
                             <img src="{{ asset('website/assets/img/blog-2.jpg') }}" alt="Image">
                         </div>
                         <div class="blog-text">
-                            <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                            <h3><a href="#">Youth Development: Giving the Next Generation More Power</a></h3>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor
+                                The secret to a prosperous future is to uplift the youth. It is essential to arm them with
+                                information and abilities. Effective approaches to education and community involvement are
+                                examined in this article..
                             </p>
                         </div>
                         <div class="blog-meta">
@@ -1407,10 +1443,12 @@
                             <img src="{{ asset('website/assets/img/blog-3.jpg') }}" alt="Image">
                         </div>
                         <div class="blog-text">
-                            <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                            <h3><a href="#">Little Actions, Big Results: Encouraging a Healthier Earth</a></h3>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte
-                                liqum metus tortor
+
+                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
+                                they accumulate into substantial environmental benefits. Every eco-friendly choice
+                                contributes to a healthier Earth.
                             </p>
                         </div>
                         <div class="blog-meta">

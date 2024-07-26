@@ -16,4 +16,7 @@ class BasicController extends Controller
     public function program(){
         return view('site.program');
     }
+    public function event(){
+        return view('site.event');
+    }
 }

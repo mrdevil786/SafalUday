@@ -74,7 +74,7 @@
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link @yield('website-active-home')">Home</a>
                     <a href="/about" class="nav-item nav-link @yield('website-active-about')">About</a>
-                    <a href="/causes" class="nav-item nav-link @yield('website-active-causes')">Causes</a>
+                    <a href="/program" class="nav-item nav-link @yield('website-active-causes')">Programs</a>
                     <a href="/events" class="nav-item nav-link @yield('website-active-events')">Events</a>
                     <a href="/donate" class="nav-item nav-link @yield('website-active-donate')">Donate</a>
                     {{-- <div class="nav-item dropdown">

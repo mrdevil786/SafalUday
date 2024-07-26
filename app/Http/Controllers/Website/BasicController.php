@@ -13,4 +13,7 @@ class BasicController extends Controller
     public function terms_of_service(){
         return view('site.terms-of-service');
     }
+    public function program(){
+        return view('site.program');
+    }
 }

@@ -103,7 +103,16 @@
     <!--Add Modal - Right Offcanvas-->
     <x-modal.right-offcanvas title="Add New Team" action="{{ route('admin.teams.store') }}" method="POST">
 
-        <x-fields.input-field label="Image" name="image" type="file" />
+        {{-- <x-fields.input-field label="Image" name="image" type="file" /> --}}
+
+        <div class="col-lg-12 mb-3">
+            <label class="form-label mt-0" for="image">Image</label>
+            <input type="file" class="dropify" name="image" data-bs-height="180" />
+            @error('profile_link')
+                <div class="text-danger">{{ $message }}</div>
+            @enderror
+        </div>
+
         <x-fields.input-field label="Full Name" name="name" />
         <x-fields.input-field label="Designation" name="designation" />
         <x-fields.input-field label="LinkedIn Profile Link" name="profile_link" />
@@ -132,6 +141,10 @@
 
     <!-- INTERNAL Notifications js -->
     <script src="{{ asset('../assets/plugins/notify/js/jquery.growl.js') }}"></script>
+
+    <!-- FILE UPLOADES JS -->
+    <script src="{{ asset('../assets/plugins/fileuploads/js/fileupload.js') }}"></script>
+    <script src="{{ asset('../assets/plugins/fileuploads/js/file-upload.js') }}"></script>
 
     <script>
         $(document).ready(function() {

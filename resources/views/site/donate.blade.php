@@ -31,13 +31,11 @@
                     <div class="donate-content">
                         <div class="section-header">
                             <p>Donate Now</p>
-                            <h2>Let's donate to needy people for better lives</h2>
+                            <h2>Empower dreams, donate to sculpt a brighter future.</h2>
                         </div>
                         <div class="donate-text">
                             <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit
-                                non. Aliquam metus tortor, auctor id gravida, viverra quis sem. Curabitur non nisl nec nisi
-                                maximus. Aenean convallis porttitor. Aliquam interdum at lacus non blandit.
+                                With your donation, you can fuel hopes for a better future. Your contributions have a long-lasting effect that raises hopes and promotes development all around the world.
                             </p>
                         </div>
                     </div>

@@ -35,15 +35,14 @@
                         <img src="{{ asset('website/assets/img/event-1.jpg') }}" alt="Image">
                         <div class="event-content">
                             <div class="event-meta">
-                                <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                <p><i class="fa fa-calendar-alt"></i>01-Aug-24</p>
+                                {{-- <p><i class="far fa-clock"></i>8:00 - 10:00</p> --}}
+                                <p><i class="fa fa-map-marker-alt"></i>Lucknow</p>
                             </div>
                             <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
+                                <h3>Volunteer Drive</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
+                                    We are collecting volunteer who are eager to join our team and be a part of social society.
                                 </p>
                                 <a class="btn btn-custom" href="">Join Now</a>
                             </div>
@@ -56,14 +55,13 @@
                         <div class="event-content">
                             <div class="event-meta">
                                 <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
-                                <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                                <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                                {{-- <p><i class="far fa-clock"></i>8:00 - 10:00</p> --}}
+                                <p><i class="fa fa-map-marker-alt"></i>Saharanpur</p>
                             </div>
                             <div class="event-text">
-                                <h3>Lorem ipsum dolor sit</h3>
+                                <h3>Drawing Competition</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
-                                    vulpte liqum metus tortor
+                                    A Competition for children to discover their creativity and the way they make their decesions.
                                 </p>
                                 <a class="btn btn-custom" href="">Join Now</a>
                             </div>

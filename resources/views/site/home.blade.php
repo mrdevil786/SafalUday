@@ -332,6 +332,20 @@
                 </div>
                 <div class="causes-item">
                     <div class="causes-img">
+                        <img src="{{ asset('website/assets/img/team-12.jpg') }}" alt="Image">
+                    </div>
+                    <div class="causes-text text-center">
+                        <h3>Gohar Zahid Siddiqui</h3>
+                        <p>HR Consultant</p>
+                    </div>
+                    <div class="causes-btn">
+                        {{-- <a class="btn btn-custom">Learn More</a> --}}
+                        <a class="btn btn-custom" href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
+                                class="fab fa-linkedin"></i> Join Now</a>
+                    </div>
+                </div>
+                <div class="causes-item">
+                    <div class="causes-img">
                         <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Image">
                     </div>
                     <div class="causes-text text-center">
@@ -1347,6 +1361,79 @@
         </div>
     </div>
     <!-- Testimonial End -->
+
+    <!-- Collaborators Start -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Meet Our</p>
+                <h2>Our Collaborators</h2>
+            </div>
+            <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Virina Foundation</h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Prime Care Hospital</h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Medison Hospital </h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Modern Science Classes</h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Collaborators End -->
 
 
     <!-- Contact Start -->

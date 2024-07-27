@@ -21,7 +21,8 @@
                 </div>
                 <div class="card-body">
                     @if ($isEdit)
-                        <form method="POST" action="{{ route('admin.teams.update', $team->id) }}" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('admin.teams.update', $team->id) }}"
+                            enctype="multipart/form-data">
                             @method('PUT')
                             @csrf
                     @endif
@@ -113,7 +114,7 @@
                         </div> --}}
 
                         @if ($isEdit)
-                            <x-fields.input-field label="Image" name="image" type="file" />
+                            <x-fields.input-field class="col-xl-8 mb-3" label="Image" name="image" type="file" />
                         @else
                             <p>{{ $team->image }}</p>
                         @endif

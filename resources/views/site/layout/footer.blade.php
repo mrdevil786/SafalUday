@@ -6,7 +6,7 @@
                 <div class="footer-contact">
                     <h2>Our Head Office</h2>
                     <p><i class="fa fa-map-marker-alt"></i>
-                        <a href="https://www.google.com/maps/place/Nadeem+Colony+near+Bhairav+Mandir+Road,+Saharanpur,+UP+(110027)"
+                        <a href="https://www.google.com/maps/place/Nadeem+calony/@29.9776196,77.525098,17z/data=!3m1!4b1!4m6!3m5!1s0x390eeb51aadcbd75:0x3a6462da09b27268!8m2!3d29.977615!4d77.5276729!16s%2Fg%2F11t5rx21nd?entry=ttu"
                             target="_blank">
                             Nadeem Colony near Bhairav Mandir Road, Saharanpur, UP (110027)
                         </a>

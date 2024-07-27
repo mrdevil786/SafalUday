@@ -158,7 +158,7 @@
         <div class="container">
             <div class="section-header text-center">
                 <p>What We Do?</p>
-                <h2>Empowering youth and providing healthcare are our core missions. Join us to create change together!</h2>
+                <h2>Our missions are healthcare and youth empowerment. Come change with us!</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -168,7 +168,7 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Skill Development.</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Developing skills entails determining skill gaps and filling them with focused training that promotes flexibility and growth.</p>
                         </div>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Youth Empowerment</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Empowerment of youth fosters skill development, self-assurance, and active participation in society.</p>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Career Guidance</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>Career counseling assists people in identifying possibilities, establishing objectives, and selecting a vocation.</p>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,8 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Healthcare</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>The goals of healthcare are to prevent disease, diagnose conditions, treat patients, and facilitate recovery.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +213,7 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Education</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>People are empowered by education, which also develops critical thinking skills and opens doors to success.</p>
                         </div>
                     </div>
                 </div>
@@ -223,7 +224,7 @@
                         </div> --}}
                         <div class="service-text">
                             <h3>Environment</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phase nec preti facils ornare velit non metus tortor</p>
+                            <p>The environment gives us the resources, water, and air that we need for our continued existence.</p>
                         </div>
                     </div>
                 </div>
@@ -723,13 +724,13 @@
                             </div>
                             <div class="btn-group btn-group-toggle" data-toggle="buttons">
                                 <label class="btn btn-custom active">
-                                    <input type="radio" name="options" checked> $10
+                                    <input type="radio" name="options" checked> ₹10
                                 </label>
                                 <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $20
+                                    <input type="radio" name="options"> ₹20
                                 </label>
                                 <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $30
+                                    <input type="radio" name="options"> ₹30
                                 </label>
                             </div>
                             <div>

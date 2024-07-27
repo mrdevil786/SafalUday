@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('designation');
             $table->string('image');
             $table->string('profile_link');
-            $table->string('section');
+            $table->enum('section', ['1', '2']);
             $table->enum('status', ['active', 'blocked'])->default('active');
             $table->timestamps();
         });

@@ -53,7 +53,15 @@
                                                 <i class="fa fa-copy"></i>
                                             </button>
                                         </td>
-                                        <td>{{ $team->section }}</td>
+                                        <td>
+                                            @if ($team->section == 1)
+                                                Our Team
+                                            @elseif($team->section == 2)
+                                                Global Advisor
+                                            @else
+                                                Unknown
+                                            @endif
+                                        </td>
                                         @if (auth()->user()->user_role == 1)
                                             <td class="text-center">
                                                 <label class="custom-switch form-switch mb-0">
@@ -98,8 +106,7 @@
         <x-fields.input-field label="Full Name" name="name" />
         <x-fields.input-field label="Designation" name="designation" />
         <x-fields.input-field label="LinkedIn Profile Link" name="profile_link" />
-        <x-fields.input-field label="Section" name="section" />
-        {{-- <x-fields.dropdown-field label="User Role" name="role" :options="[1 => 'Administrator', 2 => 'Editor', 3 => 'Viewer']" /> --}}
+        <x-fields.dropdown-field label="Section" name="section" :options="[1 => 'Our Team', 2 => 'Global Advisor']" />
 
     </x-modal.right-offcanvas>
     <!--/Right Offcanvas-->
@@ -123,7 +130,7 @@
     <script src="{{ asset('../assets/js/table-data.js') }}"></script>
 
     <!-- INTERNAL Notifications js -->
-    <script src="../assets/plugins/notify/js/jquery.growl.js"></script>
+    <script src="{{ asset('../assets/plugins/notify/js/jquery.growl.js') }}"></script>
 
     <script>
         $(document).ready(function() {

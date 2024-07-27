@@ -8,8 +8,10 @@
     <div class="page-header">
         <div class="d-flex justify-content-between align-items-center">
             <h1 class="page-title">Manage Users</h1>
-            <button class="btn btn-primary off-canvas" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add User</button>
+            @if (auth()->user()->user_role == 1)
+                <button class="btn btn-primary off-canvas" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Add User</button>
+            @endif
         </div>
     </div>
     <!-- PAGE-HEADER END -->

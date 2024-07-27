@@ -14,5 +14,7 @@ class Team extends Model
         'designation',
         'image',
         'profile_link',
+        'section',
+        'status',
     ];
 }

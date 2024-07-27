@@ -93,7 +93,7 @@
         <x-fields.input-field label="Designation" name="designation" />
         <x-fields.input-field label="Image" name="image" type="file" />
         <x-fields.input-field label="Profile Link" name="profile_link" />
-        <x-fields.input-field label="Sections" name="section" />
+        <x-fields.input-field label="Section" name="section" />
         {{-- <x-fields.dropdown-field label="User Role" name="role" :options="[1 => 'Administrator', 2 => 'Editor', 3 => 'Viewer']" /> --}}
 
     </x-modal.right-offcanvas>
@@ -121,42 +121,6 @@
     <script src="../assets/plugins/notify/js/jquery.growl.js"></script>
 
     <script>
-        // $(document).ready(function() {
-        //     $('input[name="custom-switch-radio"]').change(function() {
-        //         var teamId = $(this).data('team-id');
-        //         var status = $(this).prop('checked') ? 'active' : 'blocked';
-
-        //         $.ajax({
-        //             url: "{{ route('admin.teams.status') }}",
-        //             method: "PUT",
-        //             data: {
-        //                 id: teamId,
-        //                 status: status,
-        //                 _token: "{{ csrf_token() }}"
-        //             },
-        //             success: function(response) {
-        //                 if (response.warning) {
-        //                     $.growl.warning1({
-        //                         title: 'Warning',
-        //                         message: response.warning
-        //                     });
-        //                 } else {
-        //                     $.growl.notice1({
-        //                         title: 'Success',
-        //                         message: response.message
-        //                     });
-        //                 }
-        //             },
-        //             error: function(xhr, status, error) {
-        //                 $.growl.error1({
-        //                     title: 'Error',
-        //                     message: 'An error occurred while updating team status.'
-        //                 });
-        //             }
-        //         });
-        //     });
-        // });
-
         $(document).ready(function() {
             $('input[name="custom-switch-radio"]').change(function() {
                 var teamId = $(this).data('team-id');
@@ -171,13 +135,20 @@
                         _token: "{{ csrf_token() }}"
                     },
                     success: function(response) {
-                        $.growl.notice({
-                            title: 'Success',
-                            message: response.message
-                        });
+                        if (response.warning) {
+                            $.growl.warning1({
+                                title: 'Warning',
+                                message: response.warning
+                            });
+                        } else {
+                            $.growl.notice1({
+                                title: 'Success',
+                                message: response.message
+                            });
+                        }
                     },
                     error: function(xhr, status, error) {
-                        $.growl.error({
+                        $.growl.error1({
                             title: 'Error',
                             message: 'An error occurred while updating team status.'
                         });

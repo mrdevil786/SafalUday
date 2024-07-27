@@ -29,9 +29,9 @@
                             <thead>
                                 <tr>
                                     <th class="wd-15p border-bottom-0">#</th>
+                                    <th class="wd-15p border-bottom-0">Image</th>
                                     <th class="wd-20p border-bottom-0">Name</th>
                                     <th class="wd-15p border-bottom-0">Designation</th>
-                                    <th class="wd-15p border-bottom-0">Image</th>
                                     <th class="wd-15p border-bottom-0">Link</th>
                                     <th class="wd-15p border-bottom-0">Section</th>
                                     @if (auth()->user()->user_role == 1)
@@ -44,9 +44,9 @@
                                 @foreach ($teams as $team)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
+                                        <td>{{ $team->image }}</td>
                                         <td>{{ $team->name }}</td>
                                         <td>{{ $team->designation }}</td>
-                                        <td>{{ $team->image }}</td>
                                         <td>{{ $team->profile_link }}</td>
                                         <td>{{ $team->section }}</td>
                                         @if (auth()->user()->user_role == 1)
@@ -88,11 +88,11 @@
 
     <!--Add Modal - Right Offcanvas-->
     <x-modal.right-offcanvas title="Add New Team" action="{{ route('admin.teams.store') }}" method="POST">
-
+        
+        <x-fields.input-field label="Image" name="image" type="file" />
         <x-fields.input-field label="Full Name" name="name" />
         <x-fields.input-field label="Designation" name="designation" />
-        <x-fields.input-field label="Image" name="image" type="file" />
-        <x-fields.input-field label="Profile Link" name="profile_link" />
+        <x-fields.input-field label="LinkedIn Profile Link" name="profile_link" />
         <x-fields.input-field label="Section" name="section" />
         {{-- <x-fields.dropdown-field label="User Role" name="role" :options="[1 => 'Administrator', 2 => 'Editor', 3 => 'Viewer']" /> --}}
 

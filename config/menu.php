@@ -34,7 +34,7 @@ return [
         'items' => [
             [
                 'label' => 'Teams',
-                'icon' => 'fe fe-dollar-sign',
+                'icon' => 'fe fe-users',
                 'route' => 'admin.teams.index',
                 'active' => 'admin/teams',
             ],

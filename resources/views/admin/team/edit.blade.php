@@ -54,7 +54,7 @@
                         </div>
 
                         <div class="col-xl-4 mb-3">
-                            <label class="form-label mt-0" for="profile_link">Profile Link</label>
+                            <label class="form-label mt-0" for="profile_link">LinkedIn Profile Link</label>
                             @if ($isEdit)
                                 <input type="text" class="form-control" id="profile_link" name="profile_link"
                                     value="{{ old('profile_link', $team->profile_link) }}">

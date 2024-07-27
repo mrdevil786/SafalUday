@@ -39,11 +39,14 @@
                     <div class="top-bar-left">
                         <div class="text">
                             <i class="fa fa-phone-alt"></i>
-                            <p>+91 97611-33546 | +91 97211-28601</p>
+                            <p>
+                                <a href="tel:+9197611-33546">+91 97611-33546</a> |
+                                <a href="tel:+9197211-28601">+91 97211-28601</a>
+                            </p>
                         </div>
                         <div class="text">
                             <i class="fa fa-envelope"></i>
-                            <p>info@safaluday.org</p>
+                            <p><a href="mailto:info@safaluday.org">info@safaluday.org</a></p>
                         </div>
                     </div>
                 </div>
@@ -51,8 +54,10 @@
                     <div class="top-bar-right">
                         <div class="social">
                             <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=61560566337175"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61560566337175"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i
+                                    class="fab fa-linkedin-in"></i></a>
                             <a href="https://www.instagram.com/safaluday_ngo/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
@@ -64,7 +69,7 @@
 
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">   
+        <div class="container-fluid">
             <a href="/" class="navbar-brand">Safaluday</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>

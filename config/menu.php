@@ -30,6 +30,16 @@ return [
             ],
         ],
     ],
+    'teams' => [
+        'items' => [
+            [
+                'label' => 'Teams',
+                'icon' => 'fe fe-dollar-sign',
+                'route' => 'admin.teams.index',
+                'active' => 'admin/teams',
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

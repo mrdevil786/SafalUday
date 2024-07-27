@@ -5,6 +5,7 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\DonationsController;
+use App\Http\Controllers\Admin\ProfilesController;
 use App\Http\Controllers\Admin\SubscribersController;
 use App\Http\Controllers\Admin\TeamsController;
 
@@ -97,6 +98,15 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         ->prefix('teams')
         ->middleware('member')
         ->controller(TeamsController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            Route::get('view/{id}', 'view')->name('view');
+        });
+
+    // Profile Route
+    Route::name('profile.')
+        ->prefix('profile')
+        ->middleware('member')
+        ->controller(ProfilesController::class)->group(function () {
             Route::get('/', 'index')->name('index');
             Route::get('view/{id}', 'view')->name('view');
         });

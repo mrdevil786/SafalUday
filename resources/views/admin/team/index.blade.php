@@ -139,9 +139,6 @@
     <script src="{{ asset('../assets/plugins/datatable/responsive.bootstrap5.min.js') }}"></script>
     <script src="{{ asset('../assets/js/table-data.js') }}"></script>
 
-    <!-- INTERNAL Notifications js -->
-    <script src="{{ asset('../assets/plugins/notify/js/jquery.growl.js') }}"></script>
-
     <!-- FILE UPLOADES JS -->
     <script src="{{ asset('../assets/plugins/fileuploads/js/fileupload.js') }}"></script>
     <script src="{{ asset('../assets/plugins/fileuploads/js/file-upload.js') }}"></script>

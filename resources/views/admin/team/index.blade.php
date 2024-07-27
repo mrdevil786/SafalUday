@@ -44,7 +44,8 @@
                                 @foreach ($teams as $team)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $team->image }}</td>
+                                        <td class="align-middle text-center"><img alt="image"
+                                                class="avatar avatar-sm br-7" src="{{ asset($team->image) }}"></td>
                                         <td>{{ $team->name }}</td>
                                         <td>{{ $team->designation }}</td>
                                         <td>

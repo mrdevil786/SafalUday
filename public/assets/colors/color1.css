@@ -436,7 +436,8 @@ a.text-primary:focus {
 }
 
 .avatar {
-    background: var(--primary02) no-repeat center/cover;
+    object-fit: cover;
+    background: var(--primary02) no-repeat center/contain;
 }
 
 .spinner,

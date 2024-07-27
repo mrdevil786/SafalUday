@@ -39,7 +39,7 @@
                     <div class="top-bar-left">
                         <div class="text">
                             <i class="fa fa-phone-alt"></i>
-                            <p>+123 456 7890</p>
+                            <p>+91 97611-33546 | +91 97211-28601</p>
                         </div>
                         <div class="text">
                             <i class="fa fa-envelope"></i>
@@ -51,9 +51,9 @@
                     <div class="top-bar-right">
                         <div class="social">
                             <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61560566337175"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/safaluday_ngo/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
 
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container-fluid">
+        <div class="container-fluid">   
             <a href="/" class="navbar-brand">Safaluday</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -74,19 +74,20 @@
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link @yield('website-active-home')">Home</a>
                     <a href="/about" class="nav-item nav-link @yield('website-active-about')">About</a>
-                    <a href="/causes" class="nav-item nav-link @yield('website-active-causes')">Causes</a>
-                    <a href="/events" class="nav-item nav-link @yield('website-active-events')">Events</a>
+                    <a href="/program" class="nav-item nav-link @yield('website-active-program')">Programs</a>
+                    <a href="/event" class="nav-item nav-link @yield('website-active-event')">Events</a>
                     <a href="/donate" class="nav-item nav-link @yield('website-active-donate')">Donate</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                    <a href="/volunteer" class="nav-item nav-link @yield('website-active-volunteer')">Volunteers</a>
+                    {{-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Partners</a>
                         <div class="dropdown-menu">
-                            <a href="/blog" class="dropdown-item">Blog</a>
-                            <a href="/single" class="dropdown-item">Detail Page</a>
+                            <a href="/organization" class="dropdown-item">Organizations</a>
+                            <a href="/ngo" class="dropdown-item">NGOs</a>
                             <a href="/service" class="dropdown-item">What We Do</a>
                             <a href="/team" class="dropdown-item">Meet The Team</a>
-                            <a href="/volunteer" class="dropdown-item">Become A Volunteer</a>
+                            <a href="/volunteer" class="dropdown-item">Volunteers</a>
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="/contact" class="nav-item nav-link @yield('website-active-contact')">Contact</a>
                 </div>
             </div>

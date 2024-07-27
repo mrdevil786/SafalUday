@@ -5,15 +5,16 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-contact">
                     <h2>Our Head Office</h2>
-                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                    <p><i class="fa fa-map-marker-alt"></i>Nadeem Colony near Bhairav Mandir Road,
+                        Saharanpur, UP (110027)</p>
+                    <p><i class="fa fa-phone-alt"></i>+91 97611-33546</p>
                     <p><i class="fa fa-envelope"></i>info@safaluday.org</p>
                     <div class="footer-social">
                         <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-custom" href="https://www.facebook.com/profile.php?id=6156056633717"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-custom" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-custom" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-custom" href="https://www.instagram.com/safaluday_ngo/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -30,8 +31,8 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-link">
                     <h2>Useful Links</h2>
-                    <a href="">Terms of use</a>
-                    <a href="">Privacy policy</a>
+                    <a href="{{route('site.terms-of-service')}}">Terms of use</a>
+                    <a href="{{route('site.privacy-policy')}}">Privacy policy</a>
                     <a href="">Cookies</a>
                     <a href="">Help</a>
                     <a href="">FQAs</a>

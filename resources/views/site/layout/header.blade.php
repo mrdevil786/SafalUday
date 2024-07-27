@@ -40,13 +40,13 @@
                         <div class="text">
                             <i class="fa fa-phone-alt"></i>
                             <p>
-                                <a href="tel:+9197611-33546">+91 97611-33546</a> |
-                                <a href="tel:+9197211-28601">+91 97211-28601</a>
+                                <a href="tel:+9197611-33546" class="text-white">+91 97611-33546</a> |
+                                <a href="tel:+9197211-28601" class="text-white">+91 97211-28601</a>
                             </p>
                         </div>
                         <div class="text">
                             <i class="fa fa-envelope"></i>
-                            <p><a href="mailto:info@safaluday.org">info@safaluday.org</a></p>
+                            <p><a href="mailto:info@safaluday.org" class="text-white">info@safaluday.org</a></p>
                         </div>
                     </div>
                 </div>

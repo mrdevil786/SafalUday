@@ -354,7 +354,7 @@
                         <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Image">
                     </div>
                     <div class="causes-text text-center">
-                        <h3>Suhail Saeed USmani</h3>
+                        <h3>Suhail Saeed Usmani</h3>
                         <p>Technical Lead</p>
                     </div>
                     <div class="causes-btn">

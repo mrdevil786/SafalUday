@@ -42,8 +42,6 @@
                                 <div class="text-center">
                                     <img class="img-responsive br-5" style="height: 180px;" src="{{ asset($team->image) }}" alt="Thumb-1">
                                 </div>
-
-                                {{-- <img src="{{ asset($team->image) }}" alt="{{ $team->name }}" class="img-fluid"> --}}
                             @endif
                         </div>
 

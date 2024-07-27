@@ -128,43 +128,6 @@
     <script src="{{ asset('../assets/js/table-data.js') }}"></script>
 
     <!-- INTERNAL Notifications js -->
-    <script src="{{ asset('../assets/plugins/notify/js/jquery.growl.js') }}"></script>
+    <script src="../assets/plugins/notify/js/jquery.growl.js"></script>
 
-    <script>
-        $(document).ready(function() {
-            $('input[name="custom-switch-radio"]').change(function() {
-                var userId = $(this).data('user-id');
-                var status = $(this).prop('checked') ? 'active' : 'blocked';
-
-                $.ajax({
-                    url: "{{ route('admin.users.status') }}",
-                    method: "PUT",
-                    data: {
-                        id: userId,
-                        status: status,
-                        _token: "{{ csrf_token() }}"
-                    },
-                    success: function(response) {
-                        if (response.warning) {
-                            $.growl.warning1({
-                                title: 'Warning',
-                                message: response.warning
-                            });
-                        } else {
-                            $.growl.notice1({
-                                title: 'Success',
-                                message: response.message
-                            });
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        $.growl.error1({
-                            title: 'Error',
-                            message: 'An error occurred while updating user status.'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
 @endsection

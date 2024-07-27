@@ -28,7 +28,7 @@ class TeamsController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'designation' => 'required|string|max:255',
-            'image' => 'required|string|max:255',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1024',
             'profile_link' => 'required|string|max:255',
             'section' => 'required|string|max:255',
         ]);
@@ -42,7 +42,7 @@ class TeamsController extends Controller
 
         $team->save();
 
-        return redirect()->route('admin.team.index')->with('success', 'User registered successfully!');
+        return redirect()->route('admin.teams.index')->with('success', 'Team registered successfully!');
     }
 
     // FIND A SPECIFIC TEAM AND SHOW THE EDIT FORM
@@ -62,30 +62,33 @@ class TeamsController extends Controller
     }
 
     // UPDATE A TEAM'S DETAILS
-    public function update(Request $request)
+    public function update(Request $request, $id)
     {
         $request->validate([
-            'name' => 'required|string',
-            'email' => 'required|email|unique:users,email,' . $request->id,
-            'role' => 'required|in:1,2,3',
-            'avatar' => 'mimes:png,jpg,jpeg,webp,svg,gif',
+            'name' => 'required|string|max:255',
+            'designation' => 'required|string|max:255',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:1024',
+            'profile_link' => 'required|string|max:255',
+            'section' => 'required|string|max:255',
         ]);
 
-        $team = Team::findOrFail($request->id);
-
+        $team = Team::findOrFail($id);
         $team->name = $request->name;
-        $team->email = $request->designation;
+        $team->designation = $request->designation;
 
-        if ($request->hasFile('avatar')) {
-            $team->avatar = FileUploader::uploadFile($request->file('image'), 'images/admin-avatar', $team->image);
+        if ($request->hasFile('image')) {
+            $team->image = FileUploader::uploadFile($request->file('image'), 'images/team-image', $team->image);
         }
+
+        $team->profile_link = $request->profile_link;
+        $team->section = $request->section;
 
         $team->save();
 
-        return redirect()->route('admin.users.index')->with('success', 'User updated successfully!');
+        return redirect()->route('admin.teams.index')->with('success', 'Team updated successfully!');
     }
 
-    // UPDATE USER'S STATUS (ACTIVE OR BLOCKED)
+    // UPDATE TEAM'S STATUS (ACTIVE OR BLOCKED)
     public function status(Request $request)
     {
         $request->validate([
@@ -99,12 +102,12 @@ class TeamsController extends Controller
         return response()->json(['message' => 'Team status updated successfully']);
     }
 
-    // DELETE A USER
+    // DELETE A TEAM
     public function destroy($id)
     {
-        $user = User::findOrFail($id);
-        $user->delete();
+        $team = Team::findOrFail($id);
+        $team->delete();
 
-        return redirect()->route('admin.users.index')->with('success', 'User deleted successfully!');
+        return redirect()->route('admin.teams.index')->with('success', 'Team deleted successfully!');
     }
 }

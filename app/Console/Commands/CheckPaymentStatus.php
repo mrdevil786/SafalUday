@@ -39,7 +39,13 @@ class CheckPaymentStatus extends Command
             }
 
             foreach ($pendingPayments as $payment) {
-                $razorpayOrder = $api->order->fetch($payment->order_id);
+                try {
+                    $razorpayOrder = $api->order->fetch($payment->order_id);
+                } catch (\Exception $e) {
+                    $this->error('Order ID not found for payment ID: ' . $payment->id . '. Deleting payment record.');
+                    $payment->delete();
+                    continue;
+                }
 
                 $razorpayPayments = $razorpayOrder->payments();
 
@@ -48,6 +54,10 @@ class CheckPaymentStatus extends Command
                 }
 
                 $latestPayment = collect($razorpayPayments['items'])->sortByDesc('created_at')->first();
+
+                if ($latestPayment === null) {
+                    continue;
+                }
 
                 if ($latestPayment->status == 'captured') {
                     $payment->status = 'success';

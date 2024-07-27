@@ -47,7 +47,12 @@
                                         <td>{{ $team->image }}</td>
                                         <td>{{ $team->name }}</td>
                                         <td>{{ $team->designation }}</td>
-                                        <td>{{ $team->profile_link }}</td>
+                                        <td>
+                                            <button type="button" class="btn btn-outline-secondary btn-pill btn-sm"
+                                                onclick="copyToClipboard('{{ $team->profile_link }}')">
+                                                <i class="fa fa-copy"></i>
+                                            </button>
+                                        </td>
                                         <td>{{ $team->section }}</td>
                                         @if (auth()->user()->user_role == 1)
                                             <td class="text-center">
@@ -88,7 +93,7 @@
 
     <!--Add Modal - Right Offcanvas-->
     <x-modal.right-offcanvas title="Add New Team" action="{{ route('admin.teams.store') }}" method="POST">
-        
+
         <x-fields.input-field label="Image" name="image" type="file" />
         <x-fields.input-field label="Full Name" name="name" />
         <x-fields.input-field label="Designation" name="designation" />
@@ -156,5 +161,19 @@
                 });
             });
         });
+
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                $.growl.notice1({
+                    title: 'Success',
+                    message: 'Link copied to clipboard'
+                });
+            }, function(err) {
+                $.growl.error1({
+                    title: 'Error',
+                    message: 'Failed to copy link'
+                });
+            });
+        }
     </script>
 @endsection

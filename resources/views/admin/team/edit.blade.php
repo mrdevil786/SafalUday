@@ -70,40 +70,21 @@
                         <div class="col-xl-4 mb-3">
                             <label class="form-label mt-0" for="section">Section</label>
                             @if ($isEdit)
-                                <input type="text" class="form-control" id="section" name="section"
-                                    value="{{ old('section', $team->section) }}">
-                            @else
-                                <p class="form-control">{{ $team->section }}</p>
-                            @endif
-                            @error('section')
-                                <div class="text-danger">{{ $message }}</div>
-                            @enderror
-                        </div>
-
-                        {{-- <div class="col-xl-4 mb-3">
-                            <label class="form-label mt-0" for="role">User Role</label>
-                            @if ($isEdit)
-                                <select class="form-control" id="role" name="role">
-                                    <option value="1" {{ old('role', $user->user_role) == 1 ? 'selected' : '' }}>
-                                        Administrator</option>
-                                    <option value="2" {{ old('role', $user->user_role) == 2 ? 'selected' : '' }}>
-                                        Editor</option>
-                                    <option value="3" {{ old('role', $user->user_role) == 3 ? 'selected' : '' }}>
-                                        Viewer</option>
+                                <select class="form-select form-control" id="section" name="section">
+                                    <option value="1" {{ old('section', $team->section) == 1 ? 'selected' : '' }}>
+                                        Our Team</option>
+                                    <option value="2" {{ old('section', $team->section) == 2 ? 'selected' : '' }}>
+                                        Global Advisor</option>
                                 </select>
                             @else
                                 <p class="form-control">
-                                    @switch($user->user_role)
+                                    @switch($team->section)
                                         @case(1)
-                                            Administrator
+                                            Our Team
                                         @break
 
                                         @case(2)
-                                            Editor
-                                        @break
-
-                                        @case(3)
-                                            Viewer
+                                            Global Advisor
                                         @break
                                     @endswitch
                                 </p>
@@ -111,7 +92,7 @@
                             @error('role')
                                 <div class="text-danger">{{ $message }}</div>
                             @enderror
-                        </div> --}}
+                        </div>
 
                         @if ($isEdit)
                             <x-fields.input-field class="col-xl-8 mb-3" label="Image" name="image" type="file" />

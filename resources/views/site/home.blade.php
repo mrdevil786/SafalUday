@@ -289,240 +289,25 @@
     <div class="causes">
         <div class="container">
             <div class="section-header text-center">
-                {{-- <p>Popular Causes</p> --}}
                 <h2>Meet Our Team</h2>
             </div>
 
             <div class="owl-carousel causes-carousel">
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Sadaf Zuberi</h3>
-                        <p>Founder</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/sadaf-zuberi-a72310b8/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-9.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Rida Sageer</h3>
-                        <p>Chief Operation Officer</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/dr-rida-sagheer-b2775b75/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-6.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Subuhi Kashif Ali Khan</h3>
-                        <p>Program Head</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-12.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Gohar Zahid Siddiqui</h3>
-                        <p>HR Consultant</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-7.png') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Suhail Saeed Usmani</h3>
-                        <p>Technical Lead</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-5.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Aisha Badruddin</h3>
-                        <p>Operation Manager</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/aisha-badruddin-phd-52768271/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-10.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Anil Kumar Verma</h3>
-                        <p>Operation Manager</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-11.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Srijan Srivastava</h3>
-                        <p>Legal Advisor</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Muba Khan</h3>
-                        <p>Web Developer & Graphic Designer</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/muba-khan-55330a261/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Asna Shoib</h3>
-                        <p>Social Media Consultant</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Mariyam Fatima</h3>
-                        <p>Communication Associate</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom" href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i
-                                class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                {{-- <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/causes-2.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-progress">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100">
-                                <span>85%</span>
-                            </div>
+                @foreach ($teams as $team)
+                    <div class="causes-item">
+                        <div class="causes-img">
+                            <img src="{{ asset($team->image) }}" alt="Image">
                         </div>
-                        <div class="progress-text">
-                            <p><strong>Raised:</strong> $100000</p>
-                            <p><strong>Goal:</strong> $50000</p>
+                        <div class="causes-text text-center">
+                            <h3>{{ $team->name }}</h3>
+                            <p>{{ $team->designation }}</p>
+                        </div>
+                        <div class="causes-btn">
+                            <a class="btn btn-custom" href="{{ $team->profile_link }}"><i class="fab fa-linkedin"></i>
+                                Join Now</a>
                         </div>
                     </div>
-                    <div class="causes-text">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non
-                            vulputa</p>
-                    </div>
-                    <div class="causes-btn">
-                        <a class="btn btn-custom">Learn More</a>
-                        <a class="btn btn-custom">Donate Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/causes-3.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-progress">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                        <div class="progress-text">
-                            <p><strong>Raised:</strong> $100000</p>
-                            <p><strong>Goal:</strong> $50000</p>
-                        </div>
-                    </div>
-                    <div class="causes-text">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non
-                            vulputa</p>
-                    </div>
-                    <div class="causes-btn">
-                        <a class="btn btn-custom">Learn More</a>
-                        <a class="btn btn-custom">Donate Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/causes-4.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-progress">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                        <div class="progress-text">
-                            <p><strong>Raised:</strong> $100000</p>
-                            <p><strong>Goal:</strong> $50000</p>
-                        </div>
-                    </div>
-                    <div class="causes-text">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <p>Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non
-                            vulputa</p>
-                    </div>
-                    <div class="causes-btn">
-                        <a class="btn btn-custom">Learn More</a>
-                        <a class="btn btn-custom">Donate Now</a>
-                    </div>
-                </div> --}}
+                @endforeach
             </div>
         </div>
     </div>

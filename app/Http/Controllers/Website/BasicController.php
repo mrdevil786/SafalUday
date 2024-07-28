@@ -3,13 +3,15 @@
 namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
+use App\Models\Team;
 use Illuminate\Http\Request;
 
 class BasicController extends Controller
 {
     public function home()
     {
-        return view('site.home');
+        $teams = Team::orderBy('created_at', 'asc')->get();
+        return view('site.home', compact('teams'));
     }
 
     public function about()
@@ -36,7 +38,7 @@ class BasicController extends Controller
     {
         return view('site.program');
     }
-    
+
     public function event()
     {
         return view('site.event');

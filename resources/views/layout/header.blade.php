@@ -92,27 +92,19 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex country">
-                                            <a class="nav-link icon text-center" data-bs-target="#country-selector"
-                                                data-bs-toggle="modal">
-                                                <i class="fe fe-globe"></i><span
-                                                    class="fs-16 ms-2 d-none d-xl-block">English</span>
-                                            </a>
-                                        </div>
-                                        <!-- COUNTRY -->
+                                        <!-- Theme-Mode -->
                                         <div class="d-flex country">
                                             <a class="nav-link icon theme-layout layout-setting">
                                                 <span class="dark-layout"><i class="fe fe-moon"></i></span>
                                                 <span class="light-layout"><i class="fe fe-sun"></i></span>
                                             </a>
                                         </div>
-                                        <!-- Theme-Mode -->
+                                        <!-- FULL-SCREEN -->
                                         <div class="dropdown d-flex">
                                             <a class="nav-link icon full-screen-link nav-link-bg">
                                                 <i class="fe fe-minimize fullscreen-button"></i>
                                             </a>
                                         </div>
-                                        <!-- FULL-SCREEN -->
 
                                         <!-- SIDE-MENU -->
                                         <div class="dropdown d-flex profile-1">

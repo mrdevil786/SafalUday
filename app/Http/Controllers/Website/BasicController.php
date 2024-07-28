@@ -10,7 +10,7 @@ class BasicController extends Controller
 {
     public function home()
     {
-        $teams = Team::where('section', 1)
+        $teams = Team::where('status', 1)
             ->orderBy('created_at', 'asc')
             ->get();
         return view('site.home', compact('teams'));

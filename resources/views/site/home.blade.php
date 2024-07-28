@@ -294,19 +294,21 @@
 
             <div class="owl-carousel causes-carousel">
                 @foreach ($teams as $team)
-                    <div class="causes-item">
-                        <div class="causes-img">
-                            <img src="{{ asset($team->image) }}" alt="Image">
+                    @if ($team->section == 1)
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="{{ asset($team->image) }}" alt="Image">
+                            </div>
+                            <div class="causes-text text-center">
+                                <h3>{{ $team->name }}</h3>
+                                <p>{{ $team->designation }}</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom" href="{{ $team->profile_link }}"><i
+                                        class="fab fa-linkedin"></i> Join Now</a>
+                            </div>
                         </div>
-                        <div class="causes-text text-center">
-                            <h3>{{ $team->name }}</h3>
-                            <p>{{ $team->designation }}</p>
-                        </div>
-                        <div class="causes-btn">
-                            <a class="btn btn-custom" href="{{ $team->profile_link }}"><i class="fab fa-linkedin"></i>
-                                Join Now</a>
-                        </div>
-                    </div>
+                    @endif
                 @endforeach
             </div>
         </div>

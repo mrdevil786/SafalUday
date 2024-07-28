@@ -80,8 +80,7 @@
                         </div>
 
                         <div class="card-footer text-center">
-                            <button type="submit" class="btn btn-primary">Update</button>
-                            <a href="javascript:void(0)" class="btn btn-danger">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Change Password</button>
                         </div>
                     </form>
                 </div>
@@ -103,8 +102,7 @@
                             <x-fields.input-field label="Avatar" name="avatar" type="file" />
                         </div>
                         <div class="card-footer text-center">
-                            <button type="submit" class="btn btn-success my-1">Save</button>
-                            <a href="javascript:void(0)" class="btn btn-danger my-1">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Update Profile</button>
                         </div>
                     </form>
                 </div>

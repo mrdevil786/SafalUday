@@ -26,6 +26,7 @@ Route::post('/payment-success', [DonationController::class, 'paymentSuccess'])->
 
 Route::get('/privacy-policy', [BasicController::class, 'privacy_policy'])->name('site.privacy-policy');
 Route::get('/terms-of-service',[BasicController::class, 'terms_of_service'])->name('site.terms-of-service');
+Route::get('/refund-policy',[BasicController::class, 'refund_policy'])->name('site.refund-policy');
 
 Route::get('/program',[BasicController::class, 'program'])->name('site.program');
 Route::get('/event', [BasicController::class, 'event'])->name('site.event');

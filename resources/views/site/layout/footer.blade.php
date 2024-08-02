@@ -44,9 +44,9 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-link">
                     <h2>Useful Links</h2>
-                    <a href="{{ route('site.terms-of-service') }}">Terms of use</a>
+                    <a href="{{ route('site.terms-of-service') }}">Terms & Conditions</a>
                     <a href="{{ route('site.privacy-policy') }}">Privacy policy</a>
-                    <a href="">Cookies</a>
+                    <a href="{{ route('site.refund-policy') }}">Refund Policy</a>
                     <a href="">Help</a>
                     <a href="">FQAs</a>
                 </div>

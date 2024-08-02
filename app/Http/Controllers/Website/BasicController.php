@@ -35,6 +35,10 @@ class BasicController extends Controller
     {
         return view('site.terms-of-service');
     }
+    public function refund_policy()
+    {
+        return view('site.refund-policy');
+    }
 
     public function program()
     {

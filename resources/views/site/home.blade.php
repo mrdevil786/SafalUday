@@ -305,7 +305,7 @@
                             </div>
                             <div class="causes-btn">
                                 <a class="btn btn-custom" href="{{ $team->profile_link }}"><i
-                                        class="fab fa-linkedin"></i> Join Now</a>
+                                        class="fab fa-linkedin"></i>Connect</a>
                             </div>
                         </div>
                     @endif
@@ -592,189 +592,23 @@
             </div>
 
             <div class="owl-carousel causes-carousel">
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-1.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Prof. Gauhar Mehmood</h3>
-                        <p>Civil Eng. Dept., Jamia Milia Islamia</p>
-                        <p>Delhi, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-2.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Udayan Salim Banerjee </h3>
-                        <p>Training Consultant</p>
-                        <p>Noida, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-3.png') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Ajax Kunju Mohamed</h3>
-                        <p>SVP & MD, Nutragroup</p>
-                        <p>Frankfurt, Germany</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-4.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Mohammad Saud Afzal</h3>
-                        <p>Associate professor, IIT</p>
-                        <p>West Bengal, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-11.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Sana Iqbal</h3>
-                        <p>Gynae, Medison Hospital</p>
-                        <p>Lucknow, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-6.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Mohd Shuaib Siddiqui</h3>
-                        <p>Asst. Prof., Business Mgmt</p>
-                        <p>Univ. of Tabuk, Saudi Arabia</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-7.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Mohd Imran Khan </h3>
-                        <p>485/284 Jailors Compound</p>
-                        <p>Daliganj, Lucknow, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-8.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Mohd Hassan Baig </h3>
-                        <p>CTO BNJ Biopharma</p>
-                        <p>Seoul, South Korea</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-9.png') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Prashant Kumar Mishra </h3>
-                        <p>STC</p>
-                        <p>Kuwait</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-12.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Abdul Mabood</h3>
-                        <p>Managing Director, Prime Care Hospital</p>
-                        <p>Lucknow, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-13.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Noufal </h3>
-                        <p>Mechanical engineer</p>
-                        <p>Noida, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-14.png') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Ahmar farooqui</h3>
-                        <p>Training Consultant</p>
-                        <p>Noida, India</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-                <div class="causes-item">
-                    <div class="causes-img">
-                        <img src="{{ asset('website/assets/img/advisor-10.jpg') }}" alt="Image">
-                    </div>
-                    <div class="causes-text text-center">
-                        <h3>Dr. Kaneez Fatima </h3>
-                        <p>Research Associate, Biotech</p>
-                        <p>UPenn, USA</p>
-                    </div>
-                    <div class="causes-btn">
-                        {{-- <a class="btn btn-custom">Learn More</a> --}}
-                        <a class="btn btn-custom"><i class="fab fa-linkedin"></i> Join Now</a>
-                    </div>
-                </div>
-
+                @foreach ($teams as $team)
+                    @if ($team->section == 2)
+                        <div class="causes-item">
+                            <div class="causes-img">
+                                <img src="{{ asset($team->image) }}" alt="Image">
+                            </div>
+                            <div class="causes-text text-center">
+                                <h3>{{ $team->name }}</h3>
+                                <p>{{ $team->designation }}</p>
+                            </div>
+                            <div class="causes-btn">
+                                <a class="btn btn-custom" href="{{ $team->profile_link }}"><i
+                                        class="fab fa-linkedin"></i> Connect</a>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
             </div>
         </div>
     </div>

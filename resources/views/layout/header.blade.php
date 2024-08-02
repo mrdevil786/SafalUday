@@ -56,10 +56,10 @@
                             href="javascript:void(0)"></a>
                         <!-- sidebar-toggle-->
                         <a class="logo-horizontal " href="/">
-                            <img src="{{ asset('../assets/images/brand/logo.png') }}"
-                                class="header-brand-img desktop-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-3.png') }}"
-                                class="header-brand-img light-logo1" alt="logo">
+                            <img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
+                                class="header-brand-img desktop-logo" alt="logo" style="height: 36px;">
+                            <img src="{{ asset('website/assets/logo/Figmalogosvg_black.svg') }}"
+                                class="header-brand-img light-logo1" alt="logo" style="height: 36px;">
                         </a>
                         <!-- LOGO -->
                         <div class="main-header-center ms-3 d-none d-lg-block">
@@ -152,14 +152,14 @@
                 <div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
                 <div class="app-sidebar">
                     <div class="side-header">
-                        <a class="header-brand1" href="/">
-                            <img src="{{ asset('../assets/images/brand/logo.png') }}"
+                        <a class="header-brand1" href="{{url('/admin/')}}">
+                            <img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
                                 class="header-brand-img desktop-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-1.png') }}"
+                            <img src="{{ asset('favicon.png') }}"
                                 class="header-brand-img toggle-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-2.png') }}"
+                            <img src="{{ asset('favicon.png') }}"
                                 class="header-brand-img light-logo" alt="logo">
-                            <img src="{{ asset('../assets/images/brand/logo-3.png') }}"
+                            <img src="{{ asset('website/assets/logo/Figmalogosvg_black.svg') }}"
                                 class="header-brand-img light-logo1" alt="logo">
                         </a>
                         <!-- LOGO -->

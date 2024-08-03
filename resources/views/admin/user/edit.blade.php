@@ -111,13 +111,9 @@
 @endsection
 
 @section('custom-script')
-    <!-- DATA TABLE JS-->
     <!-- INPUT MASK JS-->
     <script src="{{ asset('assets/plugins/input-mask/jquery.mask.min.js') }}"></script>
 
     <!-- FORMVALIDATION JS -->
     <script src="{{ asset('assets/js/form-validation.js') }}"></script>
-
-    <!-- CUSTOM JS -->
-    <script src="{{ asset('assets/js/custom.js') }}"></script>
 @endsection

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Website\BasicController;
+use App\Http\Controllers\Website\ContactsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\DonationController;
 use App\Http\Controllers\Website\SubscriberController;
@@ -30,7 +31,9 @@ Route::get('/refund-policy',[BasicController::class, 'refund_policy'])->name('si
 
 Route::get('/program',[BasicController::class, 'program'])->name('site.program');
 Route::get('/event', [BasicController::class, 'event'])->name('site.event');
+Route::get('/partner', [BasicController::class, 'partner'])->name('site.partner');
 
 Route::get('/', [BasicController::class, 'home'])->name('site.home');
 Route::get('/about', [BasicController::class, 'about'])->name('site.about');
 Route::get('/contact', [BasicController::class, 'contact'])->name('site.contact');
+Route::post('/send-message', [ContactsController::class, 'send'])->name('send.message');

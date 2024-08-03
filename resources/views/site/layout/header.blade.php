@@ -80,9 +80,9 @@
                     <a href="/" class="nav-item nav-link @yield('website-active-home')">Home</a>
                     <a href="/about" class="nav-item nav-link @yield('website-active-about')">About</a>
                     <a href="/program" class="nav-item nav-link @yield('website-active-program')">Programs</a>
-                    <a href="/event" class="nav-item nav-link @yield('website-active-event')">Events</a>
+                    {{-- <a href="/event" class="nav-item nav-link @yield('website-active-event')">Events</a> --}}
                     <a href="/donate" class="nav-item nav-link @yield('website-active-donate')">Donate</a>
-                    <a href="/volunteer" class="nav-item nav-link @yield('website-active-volunteer')">Volunteers</a>
+                    <a href="/partner" class="nav-item nav-link @yield('website-active-partner')">Helpers</a>
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Partners</a>
                         <div class="dropdown-menu">

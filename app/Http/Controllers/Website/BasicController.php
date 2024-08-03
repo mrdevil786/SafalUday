@@ -49,4 +49,8 @@ class BasicController extends Controller
     {
         return view('site.event');
     }
+    public function partner()
+    {
+        return view('site.partner');
+    }
 }

@@ -14,8 +14,8 @@
                     <h2>Our Partners</h2>
                 </div>
                 <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Partners</a>
+                    <a href="#">Home</a>
+                    <a href="#">Partners</a>
                 </div>
             </div>
         </div>

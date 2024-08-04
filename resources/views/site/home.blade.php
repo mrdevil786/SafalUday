@@ -346,10 +346,10 @@
                             <h2>Subuhi Kashif Ali Khan</h2>
                             <p>Program Head</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -378,11 +378,11 @@
                             <h2>Suhail Saeed Usmani</h2>
                             <p>Developer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
                                         class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -441,7 +441,7 @@
                             <h2>Muba Khan</h2>
                             <p>Graphic Designer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -455,7 +455,7 @@
                             <h2>Muba Khan</h2>
                             <p>Graphic Designer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -469,7 +469,7 @@
                             <h2>Aisha Badruddin</h2>
                             <p>Operation Officer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -554,7 +554,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
                                     vulpte liqum metus tortor
                                 </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
+                                <a class="btn btn-custom" href="#">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -574,7 +574,7 @@
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non
                                     vulpte liqum metus tortor
                                 </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
+                                <a class="btn btn-custom" href="#">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -630,10 +630,10 @@
                             <h2>Prof. Gauhar Mehmood</h2>
                             <p>Civil Eng. Dept., Jamia Milia Islamia, S. Delhi</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -647,10 +647,10 @@
                             <h2>Udayan Salim Banerjee</h2>
                             <p>Training Consultant, Noida, Uttar Pradesh, India.</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -664,10 +664,10 @@
                             <h2>Dr. Ajax Kunju Mohamed</h2>
                             <p>SVP & MD, Nutragroup, Frankfurt, Germany</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -681,10 +681,10 @@
                             <h2>Mohammad Saud Afzal</h2>
                             <p>Associate professor, IIT, West Bengal</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -698,10 +698,10 @@
                             <h2>Dr. Sana Iqbal</h2>
                             <p>MBBS, DGO, Gynae, Medison Hospital, Lucknow</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -715,10 +715,10 @@
                             <h2>Dr. Mohd Shuaib Siddiqui</h2>
                             <p>Asst. Prof., Business Mgmt, Univ. of Tabuk, Saudi Arabia</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -732,10 +732,10 @@
                             <h2>Dr.Mohd Imran Khan</h2>
                             <p>BSc, BDS, MDS, 485/284 Jailors Compound, Daliganj, Lucknow, India</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -749,10 +749,10 @@
                             <h2>Dr. Mohammad Hassan Baig</h2>
                             <p>CTO BNJ Biopharma, Seoul, South Korea</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -766,10 +766,10 @@
                             <h2>Prashant Kumar Mishra</h2>
                             <p>STC, Kuwait</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -801,10 +801,10 @@
                             <h2>Muba Khan</h2>
                             <p>Web Developer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -818,10 +818,10 @@
                             <h2>Muba Khan</h2>
                             <p>Web Developer</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -835,10 +835,10 @@
                             <h2>Dr. Kaneez Fatima</h2>
                             <p>Research Associate, Biotech, UPenn, USA</p>
                             <div class="team-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1132,8 +1132,8 @@
                             </p>
                         </div>
                         <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div>
                     </div>
                 </div>
@@ -1151,8 +1151,8 @@
                             </p>
                         </div>
                         <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div>
                     </div>
                 </div>
@@ -1171,8 +1171,8 @@
                             </p>
                         </div>
                         <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
+                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div>
                     </div>
                 </div>

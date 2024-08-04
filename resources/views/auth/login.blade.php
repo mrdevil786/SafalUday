@@ -54,7 +54,7 @@
                 <div class="col col-login mx-auto mt-7">
                     <div class="text-center">
                         <a href="{{ url('/') }}"><img src="{{asset('website/assets/logo/Figmalogosvg.svg')}}"
-                                class="header-brand-img" alt="" style="height:70px;"></a>
+                                class="header-brand-img" alt="Safaluday Logo" style="height:70px;"></a>
                     </div>
                 </div>
 

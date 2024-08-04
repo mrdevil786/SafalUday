@@ -1,4 +1,4 @@
-<!-- Footer Start -->
+{{-- Footer Start --}}
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -19,10 +19,10 @@
                         <a href="mailto:info@safaluday.org" class="text-white">info@safaluday.org</a>
                     </p>
                     <div class="footer-social">
-                        <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-custom" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-custom" href="https://www.facebook.com/profile.php?id=6156056633717"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-custom" href="#"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-custom" href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i
                                 class="fab fa-instagram"></i></a>
                         <a class="btn btn-custom" href="https://www.instagram.com/safaluday_ngo/"><i
@@ -34,11 +34,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-link">
                     <h2>Popular Links</h2>
-                    <a href="">About Us</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Popular Causes</a>
-                    <a href="">Upcoming Events</a>
-                    <a href="">Latest Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Popular Causes</a>
+                    <a href="#">Upcoming Events</a>
+                    <a href="#">Latest Blog</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -47,8 +47,8 @@
                     <a href="{{ route('site.terms-of-service') }}">Terms & Conditions</a>
                     <a href="{{ route('site.privacy-policy') }}">Privacy policy</a>
                     <a href="{{ route('site.refund-policy') }}">Refund Policy</a>
-                    <a href="">Help</a>
-                    <a href="">FQAs</a>
+                    <a href="#">Help</a>
+                    <a href="#">FQAs</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -78,17 +78,17 @@
         </div>
     </div>
 </div>
-<!-- Footer End -->
+{{-- Footer End --}}
 
-<!-- Back to top button -->
+{{-- Back to top button --}}
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-<!-- Pre Loader -->
+{{-- Pre Loader --}}
 <div id="loader" class="show">
     <div class="loader"></div>
 </div>
 
-<!-- JavaScript Libraries -->
+{{-- JavaScript Libraries --}}
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('website/assets/lib/easing/easing.min.js') }}"></script>
@@ -97,12 +97,30 @@
 <script src="{{ asset('website/assets/lib/counterup/counterup.min.js') }}"></script>
 <script src="{{ asset('website/assets/lib/parallax/parallax.min.js') }}"></script>
 
-<!-- Contact Javascript File -->
-<script src="{{ asset('website/assets/mail/jqBootstrapValidation.min.js') }}"></script>
-<script src="{{ asset('website/assets/mail/contact.js') }}"></script>
-
-<!-- Template Javascript -->
+{{-- Template Javascript --}}
 <script src="{{ asset('website/assets/js/main.js') }}"></script>
+
+{{-- Schema Markup --}}
+<script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Safaluday NGO",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('favicon.png') }}",
+        "sameAs": [
+        "https://www.facebook.com/safaluday",
+        "https://www.twitter.com/safaluday",
+        "https://www.instagram.com/safaluday"
+        ],
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-555-5555",
+        "contactType": "Customer Service"
+          }
+        }
+</script>
+
 </body>
 
 </html>

@@ -14,8 +14,8 @@
                     <h2>Donate Now</h2>
                 </div>
                 <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Donate</a>
+                    <a href="#">Home</a>
+                    <a href="#">Donate</a>
                 </div>
             </div>
         </div>

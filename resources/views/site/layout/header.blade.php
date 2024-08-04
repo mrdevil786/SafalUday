@@ -67,7 +67,7 @@
                 <div class="col-md-4">
                     <div class="top-bar-right">
                         <div class="social">
-                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="https://www.facebook.com/profile.php?id=61560566337175"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i

@@ -14,8 +14,8 @@
                     <h2>Contact Us</h2>
                 </div>
                 <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Contact</a>
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
                 </div>
             </div>
         </div>

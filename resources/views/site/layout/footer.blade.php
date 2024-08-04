@@ -19,10 +19,10 @@
                         <a href="mailto:info@safaluday.org" class="text-white">info@safaluday.org</a>
                     </p>
                     <div class="footer-social">
-                        <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-custom" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-custom" href="https://www.facebook.com/profile.php?id=6156056633717"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-custom" href="#"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-custom" href="https://www.linkedin.com/company/safaluday-ngo/mycompany/"><i
                                 class="fab fa-instagram"></i></a>
                         <a class="btn btn-custom" href="https://www.instagram.com/safaluday_ngo/"><i
@@ -34,11 +34,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-link">
                     <h2>Popular Links</h2>
-                    <a href="">About Us</a>
-                    <a href="">Contact Us</a>
-                    <a href="">Popular Causes</a>
-                    <a href="">Upcoming Events</a>
-                    <a href="">Latest Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Popular Causes</a>
+                    <a href="#">Upcoming Events</a>
+                    <a href="#">Latest Blog</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -47,8 +47,8 @@
                     <a href="{{ route('site.terms-of-service') }}">Terms & Conditions</a>
                     <a href="{{ route('site.privacy-policy') }}">Privacy policy</a>
                     <a href="{{ route('site.refund-policy') }}">Refund Policy</a>
-                    <a href="">Help</a>
-                    <a href="">FQAs</a>
+                    <a href="#">Help</a>
+                    <a href="#">FQAs</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

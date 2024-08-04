@@ -14,8 +14,8 @@
                     <h2>Upcoming Events</h2>
                 </div>
                 <div class="col-12">
-                    <a href="">Home</a>
-                    <a href="">Events</a>
+                    <a href="#">Home</a>
+                    <a href="#">Events</a>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
                                 <p>
                                     We are collecting volunteer who are eager to join our team and be a part of social society.
                                 </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
+                                <a class="btn btn-custom" href="#">Join Now</a>
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                                 <p>
                                     A Competition for children to discover their creativity and the way they make their decesions.
                                 </p>
-                                <a class="btn btn-custom" href="">Join Now</a>
+                                <a class="btn btn-custom" href="#">Join Now</a>
                             </div>
                         </div>
                     </div>

@@ -153,7 +153,7 @@
                             <img src="{{ asset('website/assets/img/program-7.jpg') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
-                            <h3><a href="#">Environment</a></h3>
+                            <h3><a href="#">Protect Environment</a></h3>
                             {{-- <p>
 
                                 Individual efforts, like using reusable bags and conserving water, might seem minor, but
@@ -173,7 +173,7 @@
                             <img src="{{ asset('website/assets/img/program-8.jpg') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
-                            <h3><a href="#">Community</a></h3>
+                            <h3><a href="#">Uplift Community</a></h3>
                             {{-- <p>
 
                                 Individual efforts, like using reusable bags and conserving water, might seem minor, but
@@ -193,7 +193,7 @@
                             <img src="{{ asset('website/assets/img/program-9.jpg') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
-                            <h3><a href="#">Connecticum</a></h3>
+                            <h3><a href="#">Connecticum Series</a></h3>
                             {{-- <p>
 
                                 Individual efforts, like using reusable bags and conserving water, might seem minor, but

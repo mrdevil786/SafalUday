@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Safaluday NGO</title>
+    <title>Privacy Policy - Safaluday Educational And Social Welfare Society</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,10 +19,10 @@
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for Safaluday NGO</h1>
+    <h1>Privacy Policy for Safaluday Educational And Social Welfare Society</h1>
 
     <h2>Introduction</h2>
-    <p>Safaluday ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you donate to Safaluday through Razorpay, in compliance with the applicable laws and regulations of the Indian Government.</p>
+    <p>Safaluday Educational And Social Welfare Society ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you donate to Safaluday Educational And Social Welfare Society through Razorpay, in compliance with the applicable laws and regulations of the Indian Government.</p>
 
     <h2>1. Information We Collect</h2>
     <p>1.1. <strong>Personal Information</strong>: When you make a donation, we may collect personal information such as your name, email address, phone number, postal address, and payment information.</p>
@@ -36,7 +36,7 @@
     <h2>3. Disclosure of Information</h2>
     <p>3.1. <strong>Third-Party Service Providers</strong>: We may share your information with third-party service providers, such as Razorpay, for processing payments and other services related to our operations.</p>
     <p>3.2. <strong>Legal Requirements</strong>: We may disclose your information if required by law or in response to a valid request from a governmental or regulatory authority.</p>
-    <p>3.3. <strong>Protection of Rights</strong>: We may disclose your information to protect the rights, property, or safety of Safaluday, our donors, or others.</p>
+    <p>3.3. <strong>Protection of Rights</strong>: We may disclose your information to protect the rights, property, or safety of Safaluday Educational And Social Welfare Society, our donors, or others.</p>
 
     <h2>4. Data Security</h2>
     <p>4.1. <strong>Security Measures</strong>: We implement appropriate technical and organizational measures to protect your information from unauthorized access, alteration, disclosure, or destruction.</p>
@@ -54,7 +54,7 @@
 
     <h2>8. Contact Information</h2>
     <p>For any questions or concerns regarding this Privacy Policy, please contact us at:</p>
-    <p>Safaluday NGO<br>
+    <p>Safaluday Educational And Social Welfare Society<br>
     Nadeem Colony near Bhairav Mandir Road, Saharanpur, UP (110027)<br>
     Email: <a href="mailto:info@safaluday.org">info@safaluday.org</a><br>
     Phone: +91 97611-33546</p>

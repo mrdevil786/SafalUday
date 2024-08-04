@@ -21,7 +21,7 @@
                             equality, inclusivity, and women's empowerment.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -39,7 +39,7 @@
                             empowering people for a prosperous society.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -57,7 +57,7 @@
                             future.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -305,7 +305,7 @@
                             </div>
                             <div class="causes-btn">
                                 <a class="btn btn-custom" href="{{ $team->profile_link }}"><i
-                                        class="fab fa-linkedin"></i>Connect</a>
+                                        class="fab fa-linkedin"></i> Connect</a>
                             </div>
                         </div>
                     @endif
@@ -972,13 +972,13 @@
     <div class="testimonial">
         <div class="container">
             <div class="section-header text-center">
-                <p>Meet Our</p>
+                {{-- <p>Meet Our</p> --}}
                 <h2>Our Collaborators</h2>
             </div>
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-2.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Virina Foundation</h3>
                             <p>Lucknow</p>
@@ -993,7 +993,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-3.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Prime Care Hospital</h3>
                             <p>Lucknow</p>
@@ -1008,7 +1008,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Medison Hospital </h3>
                             <p>Lucknow</p>
@@ -1023,7 +1023,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Modern Science Classes</h3>
                             <p>Lucknow</p>

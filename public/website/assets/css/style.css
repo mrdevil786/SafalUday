@@ -543,8 +543,8 @@ a:focus {
     padding: 210px 0 90px 0;
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment: scroll;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -673,7 +673,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    /* padding: 45px 0; */
 }
 
 .about .section-header {

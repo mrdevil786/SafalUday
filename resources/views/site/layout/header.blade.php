@@ -79,20 +79,33 @@
                 <div class="navbar-nav ml-auto">
                     <a href="/" class="nav-item nav-link @yield('website-active-home')">Home</a>
                     <a href="/about" class="nav-item nav-link @yield('website-active-about')">About</a>
-                    <a href="/program" class="nav-item nav-link @yield('website-active-program')">Programs</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">What We Do</a>
+                        <div class="dropdown-menu">
+                            <a href="/organization" class="dropdown-item">Skill Development</a>
+                            <a href="/ngo" class="dropdown-item">Carrer Development</a>
+                            <a href="/service" class="dropdown-item">Primary Education</a>
+                            <a href="/team" class="dropdown-item">Safal 30</a>
+                            <a href="/volunteer" class="dropdown-item">Women Empowerment</a>
+                            <a href="/volunteer" class="dropdown-item">Mentor / Mentee</a>
+                            <a href="/volunteer" class="dropdown-item">Protect Environment</a>
+                            <a href="/volunteer" class="dropdown-item">Uplift Community</a>
+                            <a href="/volunteer" class="dropdown-item">Connecticum Series</a>
+                            <a href="/volunteer" class="dropdown-item">Events</a>
+                        </div>
+                    </div>
+                    {{-- <a href="/program" class="nav-item nav-link @yield('website-active-program')">Programs</a> --}}
                     {{-- <a href="/event" class="nav-item nav-link @yield('website-active-event')">Events</a> --}}
                     <a href="/donate" class="nav-item nav-link @yield('website-active-donate')">Donate</a>
-                    <a href="/partner" class="nav-item nav-link @yield('website-active-partner')">Helpers</a>
-                    {{-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Partners</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                         <div class="dropdown-menu">
-                            <a href="/organization" class="dropdown-item">Organizations</a>
-                            <a href="/ngo" class="dropdown-item">NGOs</a>
-                            <a href="/service" class="dropdown-item">What We Do</a>
-                            <a href="/team" class="dropdown-item">Meet The Team</a>
-                            <a href="/volunteer" class="dropdown-item">Volunteers</a>
+                            <a href="/organization" class="dropdown-item">Contribute</a>
+                            <a href="/ngo" class="dropdown-item">Volunteers</a>
+                            <a href="/service" class="dropdown-item">Collaborators</a> 
                         </div>
-                    </div> --}}
+                    </div>
+                    {{-- <a href="/partner" class="nav-item nav-link @yield('website-active-partner')">Get Involved</a> --}}
                     <a href="/contact" class="nav-item nav-link @yield('website-active-contact')">Contact</a>
                 </div>
             </div>

@@ -11,11 +11,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Our Helpers</h2>
+                    <h2>Our Partners</h2>
                 </div>
                 <div class="col-12">
                     <a href="">Home</a>
-                    <a href="">Helpers</a>
+                    <a href="">Partners</a>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Virina Foundation</h3>
                             <p>Lucknow</p>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-2.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Prime Care Hospital</h3>
                             <p>Lucknow</p>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Medison Hospital </h3>
                             <p>Lucknow</p>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Modern Science Classes</h3>
                             <p>Lucknow</p>

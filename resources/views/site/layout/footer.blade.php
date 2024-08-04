@@ -1,4 +1,4 @@
-<!-- Footer Start -->
+{{-- Footer Start --}}
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -78,17 +78,17 @@
         </div>
     </div>
 </div>
-<!-- Footer End -->
+{{-- Footer End --}}
 
-<!-- Back to top button -->
+{{-- Back to top button --}}
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-<!-- Pre Loader -->
+{{-- Pre Loader --}}
 <div id="loader" class="show">
     <div class="loader"></div>
 </div>
 
-<!-- JavaScript Libraries -->
+{{-- JavaScript Libraries --}}
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('website/assets/lib/easing/easing.min.js') }}"></script>
@@ -97,12 +97,34 @@
 <script src="{{ asset('website/assets/lib/counterup/counterup.min.js') }}"></script>
 <script src="{{ asset('website/assets/lib/parallax/parallax.min.js') }}"></script>
 
-<!-- Contact Javascript File -->
+{{-- Contact Javascript File --}}
 <script src="{{ asset('website/assets/mail/jqBootstrapValidation.min.js') }}"></script>
 <script src="{{ asset('website/assets/mail/contact.js') }}"></script>
 
-<!-- Template Javascript -->
+{{-- Template Javascript --}}
 <script src="{{ asset('website/assets/js/main.js') }}"></script>
+
+{{-- Schema Markup --}}
+<script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Safaluday NGO",
+        "url": "{{ url('/') }}",
+        "logo": "{{ asset('favicon.png') }}",
+        "sameAs": [
+        "https://www.facebook.com/safaluday",
+        "https://www.twitter.com/safaluday",
+        "https://www.instagram.com/safaluday"
+        ],
+        "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-555-5555",
+        "contactType": "Customer Service"
+          }
+        }
+</script>
+
 </body>
 
 </html>

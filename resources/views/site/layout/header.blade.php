@@ -4,13 +4,27 @@
 <head>
     <meta charset="utf-8">
     <title>{{ env('APP_NAME') }} - @yield('website-page-title')</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta
-        content="Safaluday NGO, Non-Profit Organization, Community Development, Social Services, Education for All, Healthcare Initiatives, Environmental Conservation, Volunteer Opportunities, Empowering Women, Child Welfare Programs, Rural Development, Charity Organization, Support for Underprivileged, Health Camps, Educational Workshops"
-        name="keywords">
-    <meta
-        content="Safaluday NGO is dedicated to community development through education, healthcare, and environmental conservation. Join us in empowering women, supporting child welfare programs, and driving rural development. Volunteer or donate to make a difference today!"
-        name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Safaluday NGO, Non-Profit Organization, Community Development, Social Services, Education for All, Healthcare Initiatives, Environmental Conservation, Volunteer Opportunities, Empowering Women, Child Welfare Programs, Rural Development, Charity Organization, Support for Underprivileged, Health Camps, Educational Workshops">
+    <meta name="description"
+        content="Safaluday NGO is dedicated to community development through education, healthcare, and environmental conservation. Join us in empowering women, supporting child welfare programs, and driving rural development. Volunteer or donate to make a difference today!">
+    <meta name="author" content="Safaluday NGO">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ env('APP_NAME') }} - @yield('website-page-title')">
+    <meta property="og:description"
+        content="Safaluday NGO is dedicated to community development through education, healthcare, and environmental conservation. Join us in empowering women, supporting child welfare programs, and driving rural development. Volunteer or donate to make a difference today!">
+    <meta property="og:image" content="{{ asset('website/assets/img/about.jpg') }}">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ env('APP_NAME') }} - @yield('website-page-title')">
+    <meta name="twitter:description"
+        content="Safaluday NGO is dedicated to community development through education, healthcare, and environmental conservation. Join us in empowering women, supporting child welfare programs, and driving rural development. Volunteer or donate to make a difference today!">
+    <meta name="twitter:image" content="{{ asset('website/assets/img/about.jpg') }}">
 
     <!-- Favicon -->
     <link href="{{ asset('favicon.png') }}" rel="icon">
@@ -70,7 +84,8 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand"><img src="{{asset('website/assets/logo/Figmalogosvg.svg')}}" alt=""></a>
+            <a href="/" class="navbar-brand"><img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
+                    alt=""></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>

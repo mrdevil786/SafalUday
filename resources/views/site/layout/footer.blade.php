@@ -97,10 +97,6 @@
 <script src="{{ asset('website/assets/lib/counterup/counterup.min.js') }}"></script>
 <script src="{{ asset('website/assets/lib/parallax/parallax.min.js') }}"></script>
 
-{{-- Contact Javascript File --}}
-<script src="{{ asset('website/assets/mail/jqBootstrapValidation.min.js') }}"></script>
-<script src="{{ asset('website/assets/mail/contact.js') }}"></script>
-
 {{-- Template Javascript --}}
 <script src="{{ asset('website/assets/js/main.js') }}"></script>
 

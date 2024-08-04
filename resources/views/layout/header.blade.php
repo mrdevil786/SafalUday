@@ -57,9 +57,9 @@
                         <!-- sidebar-toggle-->
                         <a class="logo-horizontal " href="/">
                             <img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
-                                class="header-brand-img desktop-logo" alt="logo" style="height: 36px;">
+                                class="header-brand-img desktop-logo" alt="Safaluday Logo" style="height: 36px;">
                             <img src="{{ asset('website/assets/logo/Figmalogosvg_black.svg') }}"
-                                class="header-brand-img light-logo1" alt="logo" style="height: 36px;">
+                                class="header-brand-img light-logo1" alt="Safaluday Logo" style="height: 36px;">
                         </a>
                         <!-- LOGO -->
                         <div class="main-header-center ms-3 d-none d-lg-block">
@@ -154,13 +154,13 @@
                     <div class="side-header">
                         <a class="header-brand1" href="{{url('/admin/')}}">
                             <img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
-                                class="header-brand-img desktop-logo" alt="logo">
+                                class="header-brand-img desktop-logo" alt="Safaluday Logo">
                             <img src="{{ asset('favicon.png') }}"
-                                class="header-brand-img toggle-logo" alt="logo">
+                                class="header-brand-img toggle-logo" alt="Safaluday Logo">
                             <img src="{{ asset('favicon.png') }}"
-                                class="header-brand-img light-logo" alt="logo">
+                                class="header-brand-img light-logo" alt="Safaluday Logo">
                             <img src="{{ asset('website/assets/logo/Figmalogosvg_black.svg') }}"
-                                class="header-brand-img light-logo1" alt="logo">
+                                class="header-brand-img light-logo1" alt="Safaluday Logo">
                         </a>
                         <!-- LOGO -->
                     </div>

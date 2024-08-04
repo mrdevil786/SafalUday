@@ -79,7 +79,7 @@
         </div>
     </div>
     <footer class="footer">
-        <p>&copy; 2024 SafaluDay Foundation. All rights reserved.</p>
+        <p>&copy; {{ date('Y') }} Safaluday Foundation. All rights reserved.</p>
     </footer>
 </body>
 

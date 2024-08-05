@@ -6,15 +6,15 @@
     <title>{{ env('APP_NAME') }} - @yield('website-page-title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords"
-        content="Safaluday NGO, Non-Profit Organization, Community Development, Social Services, Education for All, Healthcare Initiatives, Environmental Conservation, Volunteer Opportunities, Empowering Women, Child Welfare Programs, Rural Development, Charity Organization, Support for Underprivileged, Health Camps, Educational Workshops">
+        content="Safal Uday Educational And Social Welfare Society, Non-Profit Organization, Community Development, Social Services, Education for All, Healthcare Initiatives, Environmental Conservation, Volunteer Opportunities, Empowering Women, Child Welfare Programs, Rural Development, Charity Organization, Support for Underprivileged, Health Camps, Educational Workshops">
     <meta name="description"
-        content="Safaluday NGO is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
-    <meta name="author" content="Safaluday NGO">
+        content="Safal Uday Educational And Social Welfare Society is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
+    <meta name="author" content="Safal Uday Educational And Social Welfare Society">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="{{ env('APP_NAME') }} - @yield('website-page-title')">
     <meta property="og:description"
-        content="Safaluday NGO is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
+        content="Safal Uday Educational And Social Welfare Society is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
     <meta property="og:image" content="{{ asset('website/assets/img/about.jpg') }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ env('APP_NAME') }} - @yield('website-page-title')">
     <meta name="twitter:description"
-        content="Safaluday NGO is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
+        content="Safal Uday Educational And Social Welfare Society is committed to enhancing community development through comprehensive education, healthcare services, and environmental conservation. Our initiatives empower women, support child welfare programs, and drive rural development. Join us as a volunteer or donate to make a significant impact today!">
     <meta name="twitter:image" content="{{ asset('website/assets/img/about.jpg') }}">
 
     <!-- Favicon -->
@@ -97,16 +97,16 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">What We Do</a>
                         <div class="dropdown-menu">
-                            <a href="/organization" class="dropdown-item">Skill Development</a>
-                            <a href="/ngo" class="dropdown-item">Carrer Development</a>
-                            <a href="/service" class="dropdown-item">Primary Education</a>
-                            <a href="/team" class="dropdown-item">Safal 30</a>
-                            <a href="/volunteer" class="dropdown-item">Women Empowerment</a>
-                            <a href="/volunteer" class="dropdown-item">Mentor / Mentee</a>
-                            <a href="/volunteer" class="dropdown-item">Protect Environment</a>
-                            <a href="/volunteer" class="dropdown-item">Uplift Community</a>
-                            <a href="/volunteer" class="dropdown-item">Connecticum Series</a>
-                            <a href="/volunteer" class="dropdown-item">Events</a>
+                            <a href="/program" class="dropdown-item">Skill Development</a>
+                            <a href="/program" class="dropdown-item">Carrer Development</a>
+                            <a href="/program" class="dropdown-item">Primary Education</a>
+                            <a href="/program" class="dropdown-item">Safal 30</a>
+                            <a href="/program" class="dropdown-item">Women Empowerment</a>
+                            <a href="/program" class="dropdown-item">Mentor / Mentee</a>
+                            <a href="/program" class="dropdown-item">Protect Environment</a>
+                            <a href="/program" class="dropdown-item">Uplift Community</a>
+                            <a href="/program" class="dropdown-item">Connecticum Series</a>
+                            <a href="/program" class="dropdown-item">Events</a>
                         </div>
                     </div>
                     {{-- <a href="/program" class="nav-item nav-link @yield('website-active-program')">Programs</a> --}}
@@ -116,8 +116,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                         <div class="dropdown-menu">
                             <a href="/organization" class="dropdown-item">Contribute</a>
-                            <a href="/ngo" class="dropdown-item">Volunteers</a>
-                            <a href="/service" class="dropdown-item">Collaborators</a> 
+                            <a href="/partner" class="dropdown-item">Volunteers</a>
+                            <a href="/partner" class="dropdown-item">Collaborators</a>
                         </div>
                     </div>
                     {{-- <a href="/partner" class="nav-item nav-link @yield('website-active-partner')">Get Involved</a> --}}

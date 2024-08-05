@@ -28,7 +28,7 @@
                 <!--<p>Our Programs</p> -->
                 <h2>Our Programs</h2>
             </div>
-            <div class="row justify-content-center text-center">
+            <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="blog-item">
                         {{-- <div class="blog-img">
@@ -42,6 +42,12 @@
                                 gender equality.
                             </p> --}}
                         </div>
+                        <ol>
+                            <li>Enhancing abilities and competencies.</li>
+                            <li>Involves assessment, training, practice, and feedback.</li>
+                            <li>Accessible to students, professionals, job seekers, entrepreneurs, and lifelong learners.</li>
+                            <li>Achieve personal and professional growth.</li>
+                        </ol>
                         {{-- <div class="blog-meta">
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
@@ -65,6 +71,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Enhancing skills, knowledge, and experiences for career growth.</li>
+                            <li>Involves self-assessment, goal setting, training, and networking.</li>
+                            <li>Accessible to individuals at any career stage, including students, professionals, and job seekers.</li>
+                            <li>Achieve career advancement and fulfillment.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -85,6 +97,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Foundational education typically for children aged 5-11.</li>
+                            <li>Covers basic subjects like reading, writing, math, and social studies.</li>
+                            <li>Children in the early stages of their educational journey.</li>
+                            <li>Develop fundamental skills and knowledge for future learning.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -105,6 +123,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Foundational education typically for children aged 5-11.</li>
+                            <li>Covers basic subjects like reading, writing, math, and social studies.</li>
+                            <li>Children in the early stages of their educational journey.</li>
+                            <li>Develop fundamental skills and knowledge for future learning.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -125,6 +149,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Enhancing women's social, economic, and political power.</li>
+                            <li>Through education, legal rights, economic opportunities, and social support.</li>
+                            <li>Society, governments, organizations, and individuals.</li>
+                            <li>Achieve gender equality and enable women to make independent choices and participate fully in all aspects of life.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -145,6 +175,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>A supportive and developmental partnership.</li>
+                            <li>Mentor provides guidance, advice, and knowledge to the mentee.</li>
+                            <li>Experienced individuals (mentors) and those seeking growth (mentees).</li>
+                            <li>Foster personal and professional development for the mentee.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -165,6 +201,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Actions to preserve and sustain the natural world.</li>
+                            <li>Involves reducing pollution, conserving resources, and promoting sustainability.</li>
+                            <li>Individuals, communities, governments, and organizations.</li>
+                            <li>Ensure a healthy planet for current and future generations.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -185,6 +227,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>Improving the well-being and quality of life for community members.</li>
+                            <li>Through education, economic development, social services, and community engagement.</li>
+                            <li>3. Individuals, organizations, local governments, and community groups.</li>
+                            <li>Create a supportive and thriving environment for all community members.</li>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -205,6 +253,12 @@
                             <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
                             <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
                         </div> --}}
+                        <ol>
+                            <li>An initiative under SAFAL UDAY aimed at personal and professional growth.</li>
+                            <li>Features events, workshops, and discussions led by experts and successful individuals.</li>
+                            <li>Open to anyone seeking motivation, skills development, and networking opportunities.</li>
+                            <li>To inspire and equip participants with the knowledge and tools for success.</li>
+                        </ol>
                     </div>
                 </div>
             </div>

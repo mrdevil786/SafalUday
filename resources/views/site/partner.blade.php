@@ -1,6 +1,6 @@
 @extends('site.layout.main')
 
-@section('website-page-title', 'Helpers')
+@section('website-page-title', 'Partners')
 
 @section('website-active-partner', 'active')
 
@@ -94,13 +94,13 @@
     <div class="testimonial">
         <div class="container">
             <div class="section-header text-center">
-                <p>Meet Our</p>
+                {{-- <p>Meet Our</p> --}}
                 <h2>Our Collaborators</h2>
             </div>
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-2.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Virina Foundation</h3>
                             <p>Lucknow</p>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/collab-2.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-3.jpg') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Prime Care Hospital</h3>
                             <p>Lucknow</p>

@@ -105,7 +105,7 @@
         {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Safaluday NGO",
+        "name": "Safaluday Educational And Social Welfare Society",
         "url": "{{ url('/') }}",
         "logo": "{{ asset('favicon.png') }}",
         "sameAs": [

@@ -15,6 +15,9 @@
                     <p><i class="fa fa-phone-alt"></i>
                         <a href="tel:+9197611-33546" class="text-white">+91 97611-33546</a>
                     </p>
+                    <p><i class="fa fa-phone-alt"></i>
+                        <a href="tel:+9197611-33546" class="text-white">+91 97211-28601</a>
+                    </p>
                     <p><i class="fa fa-envelope"></i>
                         <a href="mailto:info@safaluday.org" class="text-white">info@safaluday.org</a>
                     </p>

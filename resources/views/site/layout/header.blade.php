@@ -115,7 +115,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Get Involved</a>
                         <div class="dropdown-menu">
-                            <a href="/organization" class="dropdown-item">Contribute</a>
+                            <a href="/contribute" class="dropdown-item">Contribute</a>
                             <a href="/partner" class="dropdown-item">Volunteers</a>
                             <a href="/partner" class="dropdown-item">Collaborators</a>
                         </div>

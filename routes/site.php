@@ -32,6 +32,7 @@ Route::get('/refund-policy',[BasicController::class, 'refund_policy'])->name('si
 Route::get('/program',[BasicController::class, 'program'])->name('site.program');
 Route::get('/event', [BasicController::class, 'event'])->name('site.event');
 Route::get('/partner', [BasicController::class, 'partner'])->name('site.partner');
+Route::get('/contribute',[BasicController::class, 'contribute'])->name('site.contribute');
 
 Route::get('/', [BasicController::class, 'home'])->name('site.home');
 Route::get('/about', [BasicController::class, 'about'])->name('site.about');

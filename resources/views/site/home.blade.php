@@ -12,7 +12,7 @@
             <div class="owl-carousel">
                 <div class="carousel-item">
                     <div class="carousel-img">
-                        <img src="{{ asset('website/assets/img/carousel-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/carousel-1.webp') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
                         <h1>Empowering communities, igniting change</h1>
@@ -21,7 +21,8 @@
                             equality, inclusivity, and women's empowerment.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate
+                                Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -30,7 +31,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-img">
-                        <img src="{{ asset('website/assets/img/carousel-2.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/carousel-2.webp') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
                         <h1>Uniting hearts, transforming lives.</h1>
@@ -39,7 +40,8 @@
                             empowering people for a prosperous society.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation"
+                                style="background-color: #ffc107;">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -48,7 +50,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-img">
-                        <img src="{{ asset('website/assets/img/carousel-3.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/carousel-3.webp') }}" alt="Image">
                     </div>
                     <div class="carousel-text">
                         <h1>Creating a brighter tomorrow, together.</h1>
@@ -57,7 +59,8 @@
                             future.
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="/donate" id="donation" style="background-color: #ffc107;">Donate Now</a>
+                            <a class="btn btn-custom" href="/donate" id="donation"
+                                style="background-color: #ffc107;">Donate Now</a>
                             {{-- <a class="btn btn-custom btn-play" data-toggle="modal"
                                 data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Watch
                                 Video</a> --}}
@@ -274,7 +277,7 @@
                     <div class="facts-item">
                         <i class="flaticon-donation"></i>
                         <div class="facts-text">
-                            <h3 class="facts-plus" data-toggle="counter-up">279</h3>
+                            <h3 class="facts-plus" data-toggle="counter-up">900</h3>
                             <p>Beneficaries</p>
                         </div>
                     </div>
@@ -481,7 +484,7 @@
 
 
     <!-- Donate Start -->
-    <div class="donate" data-parallax="scroll" data-image-src="{{ asset('website/assets/img/donate.jpg') }}">
+    {{-- <div class="donate" data-parallax="scroll" data-image-src="{{ asset('website/assets/img/donate.jpg') }}">
         <div class="container" id="donation">
             <div class="row align-items-center">
                 <div class="col-lg-7">
@@ -526,7 +529,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Donate End -->
 
 
@@ -896,7 +899,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="testimonial">
+    {{-- <div class="testimonial">
         <div class="container">
             <div class="section-header text-center">
                 <p>A Glimpse at</p>
@@ -905,67 +908,75 @@
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Image">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="Image">
                         <div class="testimonial-name">
-                            <h3>Muba Khan</h3>
-                            <p>Web Developer</p>
+                            <h3>Nisha Singh</h3>
+                            <p>IT Enginner</p>
                         </div>
                     </div>
                     <div class="testimonial-text">
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
+                            Safal Uday helped me gain the skills I needed to transition into web development. Their training
+                            programs were comprehensive and the mentorship was invaluable. Today, I work as a Web Developer
+                            and
+                            owe my success to the opportunities provided by Safal Uday.
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Image">
+                        <img src="https://i.pravatar.cc/150?img=2" alt="Image">
                         <div class="testimonial-name">
-                            <h3>Asna Shoib</h3>
+                            <h3>Agastya Verma</h3>
                             <p>Content Writer</p>
                         </div>
                     </div>
                     <div class="testimonial-text">
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
+                            As a Content Writer, Safal Uday's support was pivotal in my career development. The workshops
+                            and
+                            resources they provided helped me refine my skills and gain confidence in my work. I am now
+                            thriving in my field thanks to their guidance.
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Image">
+                        <img src="https://i.pravatar.cc/150?img=3" alt="Image">
                         <div class="testimonial-name">
-                            <h3>Mariyam Fatima</h3>
+                            <h3>Anand Rao</h3>
                             <p>Content Writer</p>
                         </div>
                     </div>
                     <div class="testimonial-text">
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
+                            Joining Safal Uday was a turning point in my career. Their focus on practical skills and
+                            real-world applications made all the difference. I am grateful for their continuous support and
+                            dedication to helping individuals like me succeed.
                         </p>
                     </div>
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/team-1.jpg') }}" alt="Image">
+                        <img src="https://i.pravatar.cc/150?img=4" alt="Image">
                         <div class="testimonial-name">
-                            <h3>Sadaf Zuberi</h3>
+                            <h3>Arif Khan</h3>
                             <p>Data Analyst</p>
                         </div>
                     </div>
                     <div class="testimonial-text">
                         <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
+                            Safal Uday's programs equipped me with the analytical skills needed to excel as a Data Analyst.
+                            Their personalized approach and focus on real-world applications gave me the confidence and
+                            competence to thrive in my career. I highly recommend their programs to anyone looking to
+                            advance their skills.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+
     <!-- Testimonial End -->
 
     <!-- Collaborators Start -->
@@ -973,7 +984,7 @@
         <div class="container">
             <div class="section-header text-center">
                 {{-- <p>Meet Our</p> --}}
-                <h2>Our Collaborators</h2>
+                <h2>Our Partners</h2>
             </div>
             <div class="owl-carousel testimonials-carousel">
                 <div class="testimonial-item">
@@ -1023,9 +1034,25 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-5.png') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Modern Science Classes</h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/collab-4.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Vidya Additives Science Academy</h3>
                             <p>Lucknow</p>
                         </div>
                     </div>

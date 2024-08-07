@@ -38,7 +38,8 @@
                             <h2>Suhail Saeed Usmani</h2>
                             <p>Noida, UP, India</p>
                             <div class="team-social">
-                                <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +53,8 @@
                             <h2>Muba Khan</h2>
                             <p>Lucknow, UP, India.</p>
                             <div class="team-social">
-                                <a href="https://www.linkedin.com/in/muba-khan-55330a261/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/muba-khan-55330a261/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +68,8 @@
                             <h2>Asna Shoib</h2>
                             <p>Lucknow, UP, India</p>
                             <div class="team-social">
-                                <a href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +83,8 @@
                             <h2>Mariyam Fatima</h2>
                             <p>Lucknow, UP, India</p>
                             <div class="team-social">
-                                <a href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -145,9 +149,25 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
-                        <img src="{{ asset('website/assets/img/collab-1.jpg') }}" alt="Image">
+                        <img src="{{ asset('website/assets/img/collab-5.png') }}" alt="Image">
                         <div class="testimonial-name">
                             <h3>Modern Science Classes</h3>
+                            <p>Lucknow</p>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-text">
+                        <p>
+                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
+                            metus tortor, auctor id gravid vivera quis
+                        </p>
+                    </div> --}}
+                </div>
+
+                <div class="testimonial-item">
+                    <div class="testimonial-profile">
+                        <img src="{{ asset('website/assets/img/collab-4.jpg') }}" alt="Image">
+                        <div class="testimonial-name">
+                            <h3>Vidya Additives Science Academy</h3>
                             <p>Lucknow</p>
                         </div>
                     </div>

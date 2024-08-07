@@ -18,7 +18,10 @@ class BasicController extends Controller
 
     public function about()
     {
-        return view('site.about');
+        $teams = Team::where('status', 1)
+            ->orderBy('created_at', 'asc')
+            ->get();
+        return view('site.about', compact('teams'));
     }
 
     public function contact()
@@ -52,5 +55,8 @@ class BasicController extends Controller
     public function partner()
     {
         return view('site.partner');
+    }
+    public function contribute(){
+        return view('site.contribute');
     }
 }

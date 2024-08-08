@@ -99,7 +99,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img" data-parallax="scroll"
-                        data-image-src="{{ asset('website/assets/img/about.jpg') }}"></div>
+                        data-image-src="{{ asset('website/assets/img/about.webp') }}"></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="section-header">
@@ -853,49 +853,71 @@
 
 
     <!-- Volunteer Start -->
-    <div class="volunteer" data-parallax="scroll" data-image-src="{{ asset('website/assets/img/volunteer.jpg') }}">
+    <div class="contact">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="volunteer-form">
-                        <form>
-                            <div class="control-group">
-                                <input type="text" class="form-control" placeholder="Name" required="required" />
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" placeholder="Email" required="required" />
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit">Become a volunteer</button>
-                            </div>
-                        </form>
+            <div class="section-header text-center">
+                <p>Become a </p>
+                <h2>Volunteer</h2>
+            </div>
+            <div class="contact-img">
+                <img src="{{ asset('website/assets/img/become_volunteer.webp') }}" alt="Image">
+            </div>
+            <div class="contact-form">
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
                     </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="volunteer-content">
-                        <div class="section-header">
-                            <p>Become A Volunteer</p>
-                            <h2>Sprout hope, join us as a volunteer and bloom with purpose!</h2>
-                        </div>
-                        <div class="volunteer-text">
-                            <p>
-                                Join our team as a volunteer and be part of something truly special. Your time and
-                                dedication can make a real difference in the lives of others. Whether you're passionate
-                                about helping the community, spreading kindness, or making a positive impact, volunteering
-                                with us is a rewarding experience. Together, we can create meaningful change and work
-                                towards a brighter future. Take the first step today and become our volunteer to contribute
-                                your unique skills and make a lasting difference in the world.
-                            </p>
-                        </div>
+                @endif
+                <form name="sentMessage" novalidate="novalidate" method="POST" action="{{ route('send.message') }}">
+                    @csrf
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="name" name="name"
+                            placeholder="Your Name" required="required"
+                            data-validation-required-message="Please enter your name" value="{{ old('name') }}" />
+                        <p class="help-block text-danger">
+                            @error('name')
+                                {{ $message }}
+                            @enderror
+                        </p>
                     </div>
-                </div>
+                    <div class="control-group">
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Your Email" required="required"
+                            data-validation-required-message="Please enter your email" value="{{ old('email') }}" />
+                        <p class="help-block text-danger">
+                            @error('email')
+                                {{ $message }}
+                            @enderror
+                        </p>
+                    </div>
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
+                            required="required" data-validation-required-message="Please enter a subject"
+                            value="{{ old('subject') }}" />
+                        <p class="help-block text-danger">
+                            @error('subject')
+                                {{ $message }}
+                            @enderror
+                        </p>
+                    </div>
+                    <div class="control-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="Message" required="required"
+                            data-validation-required-message="Please enter your message">{{ old('message') }}</textarea>
+                        <p class="help-block text-danger">
+                            @error('message')
+                                {{ $message }}
+                            @enderror
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
     <!-- Volunteer End -->
+
 
 
     <!-- Testimonial Start -->

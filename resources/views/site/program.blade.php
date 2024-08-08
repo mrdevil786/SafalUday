@@ -70,7 +70,8 @@
                             <ol>
                                 <li>Enhancing skills, knowledge, and experiences for career growth.</li>
                                 <li>Involves self-assessment, goal setting, training, and networking.</li>
-                                <li>Accessible to individuals at any career stage, including students, professionals, and job
+                                <li>Accessible to individuals at any career stage, including students, professionals, and
+                                    job
                                     seekers.</li>
                                 <li>Achieve career advancement and fulfillment.</li>
                             </ol>
@@ -122,10 +123,10 @@
                                 contributes to a healthier Earth.
                             </p> --}}
                             <ol>
-                                <li>Foundational education typically for children aged 5-11.</li>
-                                <li>Covers basic subjects like reading, writing, math, and social studies.</li>
-                                <li>Children in the early stages of their educational journey.</li>
-                                <li>Develop fundamental skills and knowledge for future learning.</li>
+                                <li>Coaching boosts girls' confidence and exam performance.</li>
+                                <li>One-on-one coaching offers personalized guidance.</li>
+                                <li>Specialized tutors help girls excel in math, science, or languages.</li>
+                                <li>Female coaches motivate girls to pursue their goals.</li>
                             </ol>
                         </div>
                         {{-- <div class="blog-meta">
@@ -151,7 +152,8 @@
                                 <li>Enhancing women's social, economic, and political power.</li>
                                 <li>Through education, legal rights, economic opportunities, and social support.</li>
                                 <li>Society, governments, organizations, and individuals.</li>
-                                <li>Achieve gender equality and enable women to make independent choices and participate fully
+                                <li>Achieve gender equality and enable women to make independent choices and participate
+                                    fully
                                     in all aspects of life.</li>
                             </ol>
                         </div>

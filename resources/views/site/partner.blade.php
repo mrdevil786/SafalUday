@@ -11,88 +11,83 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Our Partners</h2>
+                    <h2>Become a Volunteer</h2>
                 </div>
                 <div class="col-12">
                     <a href="#">Home</a>
-                    <a href="#">Partners</a>
+                    <a href="#">Volunteer</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Page Header End -->
 
-    {{-- Advisor Commitee starts --}}
-    <div class="team">
+    <!-- Contact Start -->
+    <div class="contact">
         <div class="container">
             <div class="section-header text-center">
-                <h2>Volunteers</h2>
+                <p>Become a </p>
+                <h2>Volunteer</h2>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-13.png') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Suhail Saeed Usmani</h2>
-                            <p>Noida, UP, India</p>
-                            <div class="team-social">
-                                <a href="https://www.linkedin.com/in/suhailsaeedusmani/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+            <div class="contact-img">
+                <img src="{{ asset('website/assets/img/become_volunteer.webp') }}" alt="Image">
+            </div>
+            <div class="contact-form">
+                @if (session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-4.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Muba Khan</h2>
-                            <p>Lucknow, UP, India.</p>
-                            <div class="team-social">
-                                <a href="https://www.linkedin.com/in/muba-khan-55330a261/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                @endif
+                <form name="sentMessage" novalidate="novalidate" method="POST" action="{{ route('send.message') }}">
+                    @csrf
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
+                            required="required" data-validation-required-message="Please enter your name"
+                            value="{{ old('name') }}" />
+                        <p class="help-block text-danger">
+                            @error('name')
+                                {{ $message }}
+                            @enderror
+                        </p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-2.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Asna Shoib</h2>
-                            <p>Lucknow, UP, India</p>
-                            <div class="team-social">
-                                <a href="https://www.linkedin.com/in/asna-shoib-6688a1248/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                    <div class="control-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                            required="required" data-validation-required-message="Please enter your email"
+                            value="{{ old('email') }}" />
+                        <p class="help-block text-danger">
+                            @error('email')
+                                {{ $message }}
+                            @enderror
+                        </p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="{{ asset('website/assets/img/team-3.jpg') }}" alt="Advisor Committee Image">
-                        </div>
-                        <div class="team-text">
-                            <h2>Mariyam Fatima</h2>
-                            <p>Lucknow, UP, India</p>
-                            <div class="team-social">
-                                <a href="https://www.linkedin.com/in/mariyam-fatima-482826260/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+                    <div class="control-group">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
+                            required="required" data-validation-required-message="Please enter a subject"
+                            value="{{ old('subject') }}" />
+                        <p class="help-block text-danger">
+                            @error('subject')
+                                {{ $message }}
+                            @enderror
+                        </p>
                     </div>
-                </div>
+                    <div class="control-group">
+                        <textarea class="form-control" id="message" name="message" placeholder="Message" required="required"
+                            data-validation-required-message="Please enter your message">{{ old('message') }}</textarea>
+                        <p class="help-block text-danger">
+                            @error('message')
+                                {{ $message }}
+                            @enderror
+                        </p>
+                    </div>
+                    <div>
+                        <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    {{-- Advisor Commitee ends --}}
+    <!-- Contact End -->
+
 
     <!-- Collaborators Start -->
     <div class="testimonial">

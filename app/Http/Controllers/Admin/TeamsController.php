@@ -28,7 +28,7 @@ class TeamsController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'designation' => 'required|string|max:255',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1024',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg,webp|max:1024',
             'profile_link' => 'required|string|max:255',
             'section' => 'required|in:1,2,3',
         ]);
@@ -67,7 +67,7 @@ class TeamsController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'designation' => 'required|string|max:255',
-            'image' => 'mimes:jpeg,png,jpg,gif,svg|max:1024',
+            'image' => 'mimes:jpeg,png,jpg,gif,svg,webp|max:1024',
             'profile_link' => 'required|string|max:255',
             'section' => 'required|string|max:255',
         ]);

@@ -59,4 +59,7 @@ class BasicController extends Controller
     public function contribute(){
         return view('site.contribute');
     }
+    public function job(){
+        return view('site.job');
+    }
 }

@@ -118,6 +118,8 @@
                             <a href="/contribute" class="dropdown-item">Contribute</a>
                             <a href="/partner" class="dropdown-item">Volunteers</a>
                             <a href="/partner" class="dropdown-item">Collaborators</a>
+                            <a href="/internship" class="dropdown-item">Internship</a>
+                            <a href="/job" class="dropdown-item">Job</a>
                         </div>
                     </div>
                     {{-- <a href="/partner" class="nav-item nav-link @yield('website-active-partner')">Get Involved</a> --}}

@@ -20,6 +20,9 @@ class DashboardController extends Controller
 
         $percentIncrease = $previousWeekAmount > 0 ? (($totalAmount - $previousWeekAmount) / $previousWeekAmount) * 100 : 0;
 
+        // Format $percentIncrease to 3 decimal places
+        $percentIncrease = number_format($percentIncrease, 3);
+
         return view('admin.dashboard', compact('donations', 'totalAmount', 'percentIncrease'));
     }
 }

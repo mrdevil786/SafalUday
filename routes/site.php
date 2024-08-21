@@ -4,6 +4,7 @@ use App\Http\Controllers\Website\BasicController;
 use App\Http\Controllers\Website\ContactsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\DonationController;
+use App\Http\Controllers\Website\InternshipController;
 use App\Http\Controllers\Website\SubscriberController;
 
 // Route::get('/', function () {
@@ -33,6 +34,11 @@ Route::get('/program',[BasicController::class, 'program'])->name('site.program')
 Route::get('/event', [BasicController::class, 'event'])->name('site.event');
 Route::get('/partner', [BasicController::class, 'partner'])->name('site.partner');
 Route::get('/contribute',[BasicController::class, 'contribute'])->name('site.contribute');
+
+
+Route::get('/internship',[InternshipController::class,'index'])->name('internship.index');
+Route::post('/internship',[InternshipController::class,'store'])->name('internship.store');
+Route::get('/job',[BasicController::class,'job'])->name('site.job');
 
 Route::get('/', [BasicController::class, 'home'])->name('site.home');
 Route::get('/about', [BasicController::class, 'about'])->name('site.about');

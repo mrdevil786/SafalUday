@@ -5,9 +5,11 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\DonationsController;
+use App\Http\Controllers\Admin\JobsController;
 use App\Http\Controllers\Admin\ProfilesController;
 use App\Http\Controllers\Admin\SubscribersController;
 use App\Http\Controllers\Admin\TeamsController;
+use App\Http\Controllers\Admin\VolunteersController;
 
 Route::prefix('admin')->middleware('guest')->group(function () {
     Route::get('/login', [AuthController::class, 'loginView'])->name('view.login');
@@ -100,6 +102,44 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         ->controller(TeamsController::class)->group(function () {
             Route::get('/', 'index')->name('index');
             Route::get('view/{id}', 'view')->name('view');
+        });
+
+    // Volunteer Route
+
+    Route::name('volunteers.')
+        ->prefix('volunteers')
+        ->middleware('admin')
+        ->controller(VolunteersController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+            // Route::put('status', 'status')->name('status');
+            // Route::put('create', 'create')->name('create');
+        });
+
+    Route::name('volunteers.')
+        ->prefix('volunteers')
+        ->middleware('member')
+        ->controller(VolunteersController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            // Route::get('view/{id}', 'view')->name('view');
+        });
+
+    // Job Route
+
+    Route::name('jobs.')
+        ->prefix('jobs')
+        ->middleware('admin')
+        ->controller(JobsController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+            // Route::put('status', 'status')->name('status');
+            // Route::put('create', 'create')->name('create');
+        });
+
+    Route::name('jobs.')
+        ->prefix('jobs')
+        ->middleware('member')
+        ->controller(JobsController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            // Route::get('view/{id}', 'view')->name('view');
         });
 
     // Profile Route

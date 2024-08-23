@@ -38,7 +38,8 @@
                         {{ session('success') }}
                     </div>
                 @endif
-                <form name="sentMessage" novalidate="novalidate" method="POST" action="{{ route('send.message') }}">
+                <form name="sentMessage" novalidate="novalidate" method="POST" action="{{ route('volunteer.store') }}"
+                    enctype="multipart/form-data">
                     @csrf
                     <div class="control-group">
                         <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
@@ -61,26 +62,38 @@
                         </p>
                     </div>
                     <div class="control-group">
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
-                            required="required" data-validation-required-message="Please enter a subject"
-                            value="{{ old('subject') }}" />
+                        <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Your Number"
+                            required="required" data-validation-required-message="Please enter your number"
+                            value="{{ old('mobile') }}" />
                         <p class="help-block text-danger">
-                            @error('subject')
+                            @error('mobile')
                                 {{ $message }}
                             @enderror
                         </p>
                     </div>
                     <div class="control-group">
-                        <textarea class="form-control" id="message" name="message" placeholder="Message" required="required"
-                            data-validation-required-message="Please enter your message">{{ old('message') }}</textarea>
+                        <input type="text" class="form-control" id="address" name="address" placeholder="Your Address"
+                            required="required" data-validation-required-message="Please enter your address"
+                            value="{{ old('address') }}" />
                         <p class="help-block text-danger">
-                            @error('message')
+                            @error('address')
                                 {{ $message }}
                             @enderror
                         </p>
                     </div>
+                    <div class="control-group">
+                        <input type="file" class="form-control" id="resume" name="resume" placeholder="Your Resume"
+                            required="required" data-validation-required-message="Please enter your address"
+                            value="{{ old('resume') }}" style="height: 100%;" />
+                        <p class="help-block text-danger">
+                            @error('resume')
+                                {{ $message }}
+                            @enderror
+                        </p>
+                    </div>
+
                     <div>
-                        <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                        <button class="btn btn-custom" type="submit" id="sendMessageButton">Apply</button>
                     </div>
                 </form>
             </div>

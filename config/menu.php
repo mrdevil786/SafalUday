@@ -40,6 +40,26 @@ return [
             ],
         ],
     ],
+    'volunteers' => [
+        'items' => [
+            [
+                'label' => 'Volunteers',
+                'icon' => 'fe fe-thumbs-up',
+                'route' => 'admin.volunteers.index',
+                'active' => 'admin/volunteers',
+            ],
+        ],
+    ],
+    'jobs' => [
+        'items' => [
+            [
+                'label' => 'Jobs',
+                'icon' => 'fe fe-briefcase',
+                'route' => 'admin.jobs.index',
+                'active' => 'admin/jobs',
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

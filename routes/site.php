@@ -5,7 +5,9 @@ use App\Http\Controllers\Website\ContactsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Website\DonationController;
 use App\Http\Controllers\Website\InternshipController;
+use App\Http\Controllers\Website\JobController;
 use App\Http\Controllers\Website\SubscriberController;
+use App\Http\Controllers\Website\VolunteerController;
 
 // Route::get('/', function () {
 //     return view('site.home');
@@ -32,13 +34,17 @@ Route::get('/refund-policy',[BasicController::class, 'refund_policy'])->name('si
 
 Route::get('/program',[BasicController::class, 'program'])->name('site.program');
 Route::get('/event', [BasicController::class, 'event'])->name('site.event');
-Route::get('/partner', [BasicController::class, 'partner'])->name('site.partner');
 Route::get('/contribute',[BasicController::class, 'contribute'])->name('site.contribute');
+
+Route::get('/partner', [VolunteerController::class, 'index'])->name('volunteer.index');
+Route::post('/partner', [VolunteerController::class, 'store'])->name('volunteer.store');
 
 
 Route::get('/internship',[InternshipController::class,'index'])->name('internship.index');
 Route::post('/internship',[InternshipController::class,'store'])->name('internship.store');
-Route::get('/job',[BasicController::class,'job'])->name('site.job');
+
+Route::get('/job',[JobController::class,'index'])->name('job.index');
+Route::post('/job',[JobController::class,'store'])->name('job.store');
 
 Route::get('/', [BasicController::class, 'home'])->name('site.home');
 Route::get('/about', [BasicController::class, 'about'])->name('site.about');

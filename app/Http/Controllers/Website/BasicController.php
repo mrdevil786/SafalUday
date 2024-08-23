@@ -52,14 +52,7 @@ class BasicController extends Controller
     {
         return view('site.event');
     }
-    public function partner()
-    {
-        return view('site.partner');
-    }
     public function contribute(){
         return view('site.contribute');
-    }
-    public function job(){
-        return view('site.job');
     }
 }

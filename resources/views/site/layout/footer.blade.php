@@ -9,7 +9,7 @@
                         <i class="fa fa-map-marker-alt"></i>
                         <a href="https://www.google.com/maps/place/Nadeem+calony/@29.9776196,77.525098,17z/data=!3m1!4b1!4m6!3m5!1s0x390eeb51aadcbd75:0x3a6462da09b27268!8m2!3d29.977615!4d77.5276729!16s%2Fg%2F11t5rx21nd?entry=ttu"
                             target="_blank" class="text-white">
-                            Nadeem Colony near Bhairav Mandir Road, Saharanpur, UP (110027)
+                            11/2244, Lakhi Gate-1, Saharanpur, UP (247001)
                         </a>
                     </p>
                     <p><i class="fa fa-phone-alt"></i>
@@ -37,11 +37,11 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-link">
                     <h2>Popular Links</h2>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#">Popular Causes</a>
-                    <a href="#">Upcoming Events</a>
-                    <a href="#">Latest Blog</a>
+                    <a href="/about">About Us</a>
+                    <a href="/contact">Contact Us</a>
+                    <a href="/program">Popular Causes</a>
+                    <a href="/donate">Donate</a>
+                    <a href="/job">Careers</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">

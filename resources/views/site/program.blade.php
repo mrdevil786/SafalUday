@@ -32,7 +32,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-1.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-1.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Skill Development</a></h3>
@@ -58,7 +58,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-2.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-2.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Carrer Development</a></h3>
@@ -86,7 +86,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-3.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-3.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Primary Education</a></h3>
@@ -112,7 +112,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-4.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-4.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Safal 30</a></h3>
@@ -138,7 +138,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-5.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-5.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Women Empowerment</a></h3>
@@ -166,7 +166,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-6.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-6.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Mentor / Mentee</a></h3>
@@ -193,7 +193,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-7.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-7.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Protect Environment</a></h3>
@@ -220,7 +220,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-8.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-8.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Uplift Community</a></h3>
@@ -247,7 +247,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item program">
                         {{-- <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-9.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-9.webp') }}" alt="Image">
                         </div> --}}
                         <div class="blog-text">
                             <h3><a href="#">Connecticum Series</a></h3>
@@ -289,7 +289,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-1.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-1.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Drawing Competition</a></h3>
@@ -308,7 +308,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-2.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-2.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Health Camp</a></h3>
@@ -327,7 +327,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-3.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-3.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Workshop for Girls</a></h3>
@@ -347,7 +347,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-4.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-4.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Cleanliness Drive</a></h3>
@@ -367,7 +367,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-5.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-5.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Health & Hygiene Sessions</a></h3>
@@ -387,7 +387,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-6.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-6.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Food Distribution</a></h3>
@@ -407,7 +407,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-7.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-7.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Connecticum Classes</a></h3>
@@ -427,7 +427,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-8.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-8.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Domestic Violence</a></h3>
@@ -447,7 +447,7 @@
                 <div class="col-lg-4">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/program-9.jpg') }}" alt="Image">
+                            <img src="{{ asset('website/assets/img/program-9.webp') }}" alt="Image">
                         </div>
                         <div class="blog-text">
                             <h3><a href="#">Blood Donation Drive</a></h3>

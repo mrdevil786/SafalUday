@@ -90,13 +90,13 @@
                             <span class="text-muted fs-12">
                                 <span class="text-{{ $percentIncrease > 0 ? 'success' : 'danger' }}">
                                     <i class="fe fe-arrow-{{ $percentIncrease > 0 ? 'up' : 'down' }}-circle text-{{ $percentIncrease > 0 ? 'success' : 'danger' }}"></i>
-                                    {{ abs($percentIncrease) }}%
+                                    {{ number_format(abs((float) $percentIncrease), 2) }}%
                                 </span>
                                 Last week
                             </span>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </div>

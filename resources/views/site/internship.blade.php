@@ -78,7 +78,7 @@
                 <h2>Volunteer</h2>
             </div> --}}
             <div class="contact-img">
-                <img src="{{ asset('website/assets/img/become_volunteer.webp') }}" alt="Image">
+                <img src="{{ asset('website/assets/img/internship.webp') }}" alt="Image">
             </div>
             <div class="contact-form">
                 @if (session('success'))

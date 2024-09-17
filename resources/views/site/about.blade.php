@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-img" data-parallax="scroll"
-                        data-image-src="{{ asset('website/assets/img/about.jpg') }}"></div>
+                        data-image-src="{{ asset('website/assets/img/about.webp') }}"></div>
                 </div>
                 <div class="col-lg-6">
                     <div class="section-header">

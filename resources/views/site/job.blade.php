@@ -26,8 +26,8 @@
     <div class="service">
         <div class="container">
             <div class="section-header text-center">
-                <p>How You Can Be an</p>
-                <h2>Intern to Safal Uday Educational And Social Welfare Society!</h2>
+                <p>How You Can Be a</p>
+                <h2>Part of Safal Uday Educational And Social Welfare Society!</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
@@ -78,7 +78,7 @@
                 <h2>Volunteer</h2>
             </div> --}}
             <div class="contact-img">
-                <img src="{{ asset('website/assets/img/become_volunteer.webp') }}" alt="Image">
+                <img src="{{ asset('website/assets/img/job.webp') }}" alt="Image">
             </div>
             <div class="contact-form">
                 @if (session('success'))

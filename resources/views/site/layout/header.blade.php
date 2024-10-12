@@ -39,6 +39,8 @@
     <link href="{{ asset('website/assets/lib/flaticon/font/flaticon.css') }}" rel="stylesheet">
     <link href="{{ asset('website/assets/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('website/assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('website/assets/css/style.css') }}" rel="stylesheet">
@@ -85,7 +87,7 @@
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
             <a href="/" class="navbar-brand"><img src="{{ asset('website/assets/logo/Figmalogosvg.svg') }}"
-                alt="Safaluday Logo"></a>
+                    alt="Safaluday Logo"></a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>

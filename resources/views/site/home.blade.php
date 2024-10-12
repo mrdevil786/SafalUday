@@ -1017,12 +1017,6 @@
                             <p>Lucknow</p>
                         </div>
                     </div>
-                    {{-- <div class="testimonial-text">
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
-                        </p>
-                    </div> --}}
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
@@ -1032,12 +1026,6 @@
                             <p>Lucknow</p>
                         </div>
                     </div>
-                    {{-- <div class="testimonial-text">
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
-                        </p>
-                    </div> --}}
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
@@ -1047,12 +1035,6 @@
                             <p>Lucknow</p>
                         </div>
                     </div>
-                    {{-- <div class="testimonial-text">
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
-                        </p>
-                    </div> --}}
                 </div>
                 <div class="testimonial-item">
                     <div class="testimonial-profile">
@@ -1062,12 +1044,6 @@
                             <p>Lucknow</p>
                         </div>
                     </div>
-                    {{-- <div class="testimonial-text">
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
-                        </p>
-                    </div> --}}
                 </div>
 
                 <div class="testimonial-item">
@@ -1078,18 +1054,11 @@
                             <p>Lucknow</p>
                         </div>
                     </div>
-                    {{-- <div class="testimonial-text">
-                        <p>
-                            Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu
-                            metus tortor, auctor id gravid vivera quis
-                        </p>
-                    </div> --}}
                 </div>
             </div>
         </div>
     </div>
     <!-- Collaborators End -->
-
 
     <!-- Contact Start -->
     {{-- <div class="contact">
@@ -1158,76 +1127,101 @@
     </div> --}}
     <!-- Contact End -->
 
-
     <!-- Blog Start -->
-    {{-- <div class="blog">
+    <<div class="blog">
         <div class="container">
             <div class="section-header text-center">
-                <p>Our Blog</p>
-                <h2>Latest news & articles directly from our blog</h2>
+                <h2>Our Events</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/blog-1.jpg') }}" alt="Image">
+            <div class="row justify-content-center">
+                <!-- Owl Carousel Start -->
+                <div class="owl-carousel owl-theme" id="eventsCarousel">
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-10.webp') }}" alt="Drawing Competition">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">New Centre Inauguration</a></h3>
+                                <p>Our hearts swell with pride, gratitude, and emotions...</p>
+                            </div>
                         </div>
-                        <div class="blog-text">
-                            <h3><a href="#">Empowering Women: Building Opportunities for a Better Future</a></h3>
-                            <p>
-                                The advancement of society depends on women's empowerment. It entails giving them the tools
-                                and chances they need to succeed, improving their general quality of life, and advancing
-                                gender equality.
-                            </p>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-1.webp') }}" alt="Drawing Competition">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Drawing Competition</a></h3>
+                                <p>The advancement of society depends on women's empowerment...</p>
+                            </div>
                         </div>
-                        <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-2.webp') }}" alt="Health Camp">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Health Camp</a></h3>
+                                <p>The secret to a prosperous future is to uplift the youth...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-3.webp') }}" alt="Workshop for Girls">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Workshop for Girls</a></h3>
+                                <p>Individual efforts, like using reusable bags and conserving water...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-4.webp') }}" alt="Cleanliness Drive">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Cleanliness Drive</a></h3>
+                                <p>Individual efforts, like using reusable bags and conserving water...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-5.webp') }}"
+                                    alt="Health & Hygiene Sessions">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Health & Hygiene Sessions</a></h3>
+                                <p>Individual efforts, like using reusable bags and conserving water...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="{{ asset('website/assets/img/program-6.webp') }}" alt="Food Distribution">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="{{route('site.program')}}">Food Distribution</a></h3>
+                                <p>Individual efforts, like using reusable bags and conserving water...</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/blog-2.jpg') }}" alt="Image">
-                        </div>
-                        <div class="blog-text">
-                            <h3><a href="#">Youth Development: Giving the Next Generation More Power</a></h3>
-                            <p>
-                                The secret to a prosperous future is to uplift the youth. It is essential to arm them with
-                                information and abilities. Effective approaches to education and community involvement are
-                                examined in this article..
-                            </p>
-                        </div>
-                        <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="blog-item">
-                        <div class="blog-img">
-                            <img src="{{ asset('website/assets/img/blog-3.jpg') }}" alt="Image">
-                        </div>
-                        <div class="blog-text">
-                            <h3><a href="#">Little Actions, Big Results: Encouraging a Healthier Earth</a></h3>
-                            <p>
-
-                                Individual efforts, like using reusable bags and conserving water, might seem minor, but
-                                they accumulate into substantial environmental benefits. Every eco-friendly choice
-                                contributes to a healthier Earth.
-                            </p>
-                        </div>
-                        <div class="blog-meta">
-                            <p><i class="fa fa-user"></i><a href="#">Admin</a></p>
-                            <p><i class="fa fa-comments"></i><a href="#">15 Comments</a></p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Owl Carousel End -->
             </div>
         </div>
-    </div> --}}
-    <!-- Blog End -->
+    </div>
+        <!-- Blog End -->
 
-@endsection
+
+
+
+    @endsection

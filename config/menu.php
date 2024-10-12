@@ -60,6 +60,16 @@ return [
             ],
         ],
     ],
+    'internship' => [
+        'items' => [
+            [
+                'label' => 'Internship',
+                'icon' => 'fe fe-book-open',
+                'route' => 'admin.internships.index',
+                'active' => 'admin/internships',
+            ],
+        ],
+    ],
     'tools' => [
         'title' => 'Tools & Management',
         'items' => [

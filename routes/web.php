@@ -5,6 +5,7 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\DonationsController;
+use App\Http\Controllers\Admin\InternshipsController;
 use App\Http\Controllers\Admin\JobsController;
 use App\Http\Controllers\Admin\ProfilesController;
 use App\Http\Controllers\Admin\SubscribersController;
@@ -138,6 +139,26 @@ Route::prefix('admin')->name('admin.')->middleware(['auth:sanctum', 'web', 'chec
         ->prefix('jobs')
         ->middleware('member')
         ->controller(JobsController::class)->group(function () {
+            Route::get('/', 'index')->name('index');
+            // Route::get('view/{id}', 'view')->name('view');
+        });
+
+
+    // Internship Route
+
+    Route::name('internships.')
+        ->prefix('internships')
+        ->middleware('admin')
+        ->controller(InternshipsController::class)->group(function () {
+            Route::get('/{id}', 'destroy')->name('destroy');
+            // Route::put('status', 'status')->name('status');
+            // Route::put('create', 'create')->name('create');
+        });
+
+    Route::name('internships.')
+        ->prefix('internships')
+        ->middleware('member')
+        ->controller(InternshipsController::class)->group(function () {
             Route::get('/', 'index')->name('index');
             // Route::get('view/{id}', 'view')->name('view');
         });
